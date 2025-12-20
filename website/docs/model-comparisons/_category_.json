@@ -1,0 +1,8 @@
+{
+  "label": "模型对比",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "基于真实场景的模型横向对比评测。"
+  }
+}

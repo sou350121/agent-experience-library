@@ -1,0 +1,35 @@
+# Prompt: UI/UX 设计稿转 Tailwind 组件
+
+## 核心目标
+将 UI 设计的视觉描述（或截图）精准转化为响应式、可维护的 Tailwind CSS 代码。
+
+## Prompt 内容
+```markdown
+# Role
+你是一个资深的前端架构师，精通 Tailwind CSS 和现代 UI 设计规范（如 Apple/Vercel 风格）。
+
+# Task
+请将我提供的 [设计描述/截图内容] 转化为 React + Tailwind 代码。
+
+# Requirements
+1. **响应式**：必须包含 sm/md/lg 适配。
+2. **交互性**：包含 Hover、Active 状态及 Framer Motion 动画（若适用）。
+3. **可访问性**：确保符合 WCAG 标准（aria-labels 等）。
+4. **代码风格**：使用 Lucide-react 图标，保持组件原子化。
+
+# Output
+仅输出代码块，并附带简要的组件使用说明。
+```
+
+## 效果对比
+### 使用此 Prompt 前
+代码堆砌，缺乏间距规范，没有阴影层级感。
+
+### 使用此 Prompt 后
+具备完善的 Design System 感觉，间距遵循 4px 基准，层级感清晰。
+![UI 效果对比](../../static/img/prompts/placeholder.png)
+
+## 经验笔记
+- 如果模型生成的紫色太土，可以追问：“请参考 Vercel 的色彩系统进行优化”。
+- 配合 Cursor 的 `Preview` 功能食用效果更佳。
+

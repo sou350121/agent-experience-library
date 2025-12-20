@@ -1,0 +1,8 @@
+{
+  "label": "工具链",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "介绍各种 Agent 工具的使用方法与最佳实践。"
+  }
+}

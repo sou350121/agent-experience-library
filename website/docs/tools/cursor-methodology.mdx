@@ -1,0 +1,36 @@
+# Cursor 与 Claude Code 高效协作方法论
+
+## 目标
+建立一套“意图明确、步骤受控、反馈闭环”的 Agent 编码工作流。
+
+## 适用场景
+- 复杂 Feature 开发
+- 遗留代码重构
+- 跨文件 Bug 修复
+
+## 核心方法论：PLAN-DO-CHECK
+
+### 1. PLAN (规划阶段)
+在使用 Cursor 的 `Composer` 或 Claude Code 之前，**严禁直接下达模糊指令**（如“帮我写一个登录页面”）。
+
+- **策略**：先使用 `@docs` 或 `@file` 喂入上下文。
+- **动作**：要求 Agent 先输出一个 `Implementation Plan`（实现计划）。
+- **原则**：Agent 不动代码，只出步骤。
+
+### 2. DO (执行阶段)
+- **策略**：按步执行，避免一次性修改超过 5 个文件。
+- **动作**：在 Composer 中使用 `Apply` 之前，仔细对比 Diff。
+- **原则**：保持原子化提交，Agent 每完成一个 Step，人工确认一次。
+
+### 3. CHECK (检查阶段)
+- **策略**：利用内建终端自动跑测。
+- **动作**：要求 Agent 编写并运行 `test cases`。
+- **原则**：报错不过夜，优先修复 Linter 错误。
+
+## 提效技巧
+- **使用 `.cursorrules`**：在项目根目录定义全局规则（编码风格、禁用库等）。
+- **引用上下文**：巧用 `⌘ L` (Chat) 和 `⌘ I` (Composer) 的区别。Chat 用于问答，Composer 用于改动。
+
+## 效果示例
+![Cursor 工作流](../../static/img/placeholder.png)
+
