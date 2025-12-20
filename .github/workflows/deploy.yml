@@ -9,6 +9,9 @@ on:
       - 'website/**'
       - '.github/workflows/deploy.yml'
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     name: Deploy to GitHub Pages
@@ -41,4 +44,5 @@ jobs:
           publish_dir: ./website/build
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
+
 
