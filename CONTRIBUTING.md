@@ -10,15 +10,15 @@
 ## 如何贡献
 
 ### 1. 提交新内容
-1. 在 `website/docs/_templates/` 中找到对应的模板。
-2. 将模板复制到 `website/docs/` 下对应的分类目录中。
+1. 在 `docs/_templates/` 中找到对应的模板。
+2. 将模板复制到 `docs/` 下对应的分类目录中。
 3. 按照模板要求填写内容（请确保使用简体中文）。
-4. 如果有截图，请放入 `website/static/img/` 下对应的子目录，并在文档中引用。
+4. 如果有截图，请放入 `static/img/` 下对应的子目录，并在文档中引用。
 5. 提交 Pull Request。
 
 ### 2. 日更动态 (Blog)
 如果你在 X (Twitter) 上看到了好的内容并想分享：
-1. 在 `website/blog/` 下创建一个新的文件，命名格式为 `YYYY-MM-DD-title.md`。
+1. 在 `blog/` 下创建一个新的文件，命名格式为 `YYYY-MM-DD-title.md`。
 2. 简要概括内容要点，并附上原文链接。
 
 ## 内容标准
