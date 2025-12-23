@@ -14,8 +14,8 @@
   - `docs/capabilities/`（关键概念/能力边界）
 
 ## 🧭 目录导航
-- **文档**：[`docs/`](./docs/)
-- **日更动态**：[`blog/`](./blog/)
+- **文档**：[`docs/`](./docs/)（索引见 `docs/README.md`）
+- **日更动态**：[`blog/`](./blog/)（索引见 `blog/README.md`）
 - **截图/图片**：[`static/img/`](./static/img/)
 - **可复制脚手架（DocOps+AgentOps）**：[`starter-kits/docops-agentops/`](./starter-kits/docops-agentops/)
 - **给编码代理的说明**：[`AGENT.md`](./AGENT.md)
