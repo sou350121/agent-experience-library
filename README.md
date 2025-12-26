@@ -21,15 +21,17 @@
 - **给编码代理的说明**：[`AGENT.md`](./AGENT.md)
 
 ## ⭐ 精选入口（少而精）
-- **DocOps/AgentOps**
+- **心法与范式**
+  - [一人 CEO 范式：Agent 时代的个体组织力](./docs/planning/one-person-ceo-paradigm.mdx)
+  - [研究品味：作为决策中的“值函数”](./docs/planning/research-taste-as-value-function.mdx)
   - [Hybrid DocOps + AgentOps 最佳实践](./docs/planning/hybrid-docops-agentops-best-practices.mdx)
-  - [Agentic Coding 的本质：文档工程（DocOps）](./docs/planning/agentic-coding-doc-engineering.mdx)
-  - [《A Year Of Vibes》读后：Prompt VCS、协作界面与责任归属](./docs/planning/a-year-of-vibes-prompt-vcs-and-agency.mdx)
-- **工具工作流**
+- **底层架构与能力**
+  - [推理编排与元系统：榨干 LLM 的潜力](./docs/capabilities/agentic-orchestration-meta-system.mdx)
+  - [知识平权与智力成本的扁平化](./docs/capabilities/knowledge-equality-and-flat-cost.mdx)
+  - [智能作为一种资源：可编织与可协作的未来](./docs/capabilities/intelligence-as-a-resource.mdx)
+- **工具与案例**
   - [DNA 级交付标准（结论→分析→方案→里程碑→PR）](./docs/tools/agent-dna-workflow.mdx)
-  - [多 Agent 闭环：PM/架构师 + Coder + Reviewer](./docs/tools/multi-agent-coding-workflow.mdx)
-- **模型对比**
-  - [GPT-5.2 vs Opus 4.5：SSE 重构案例对比](./docs/model-comparisons/gpt5-vs-opus45-sse-case.mdx)
+  - [AI 创业 180 天失败录](./docs/case-studies/ai-startup-180-days-failure.mdx)
 
 ## ✍️ 如何贡献
 - 贡献规范：[`CONTRIBUTING.md`](./CONTRIBUTING.md)
