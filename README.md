@@ -11,8 +11,9 @@
   - `docs/architecture-governance/README.mdx` (大型项目必看)
 - 再按兴趣深入：
   - `docs/planning/`（心智模型/范式）
-  - `docs/tools/`（工具链/工作流）
-  - `docs/model-comparisons/`（模型对比）
+    - `docs/tools/`（工具链/工作流）
+    - `docs/resources/`（资源名录/影响力图谱）
+    - `docs/model-comparisons/`（模型对比）
   - `docs/prompt-library/`（Prompt 卡片）
   - `docs/case-studies/`（案例复盘）
   - `docs/capabilities/`（关键概念/能力边界）
