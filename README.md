@@ -3,10 +3,12 @@
 > 记录 Agent 使用心得、模型对比、工具方法论与 Prompt（含截图）的知识库。面向 **GitHub 直读**：目录即导航，文件即事实。
 
 ## 🏗️ 核心专项
+- **[小白通关手册 (Beginner Guide)](./docs/beginner-guide/README.md)**：从 0 到 1 的 AI 驱动开发路径。
 - **[架构治理 (Architectural Governance)](./docs/architecture-governance/README.mdx)**：针对大型项目的物理导轨、逻辑契约与流程治理框架。
 
 ## 📌 怎么读（推荐顺序）
-- 先看总览：
+- **如果你是小白**：请直接从 **[小白通关手册](./docs/beginner-guide/README.md)** 开始。
+- **如果你已入门**：按以下顺序进阶：
   - `docs/planning/hybrid-docops-agentops-best-practices.mdx`
   - `docs/planning/10x-tactical-integrated-workflow.mdx` (集成战术链路必看)
   - `docs/architecture-governance/README.mdx` (大型项目必看)
