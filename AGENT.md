@@ -106,4 +106,5 @@ sessions/        # 过程记录与失败路径
 - 根 README：`README.md`
 - 贡献指南：`CONTRIBUTING.md`
 - Prompt 索引（开发全生命周期 Cheat Sheet）：`docs/prompt-library/dev-lifecycle-cheat-sheet.mdx`
+- **UI/UX 增强工具**：`docs/tools/ui-ux-design-enhancement.mdx`
 - 模板目录：`docs/_templates/`
