@@ -84,3 +84,123 @@
 
 更多黑话解释见：
 - [小白版黑话词典：单行道与围栏](../architecture-governance/00-glossary-for-beginners.mdx)
+
+---
+
+## 6. 模型服务：vLLM（本地推理引擎，可选但强烈推荐）
+
+当你开始把 Agent 用在“真实开发”里，你会很快遇到一个问题：
+- 你不想每次都调用云端 API（成本/延迟/合规）。
+- 你希望在本地或内网部署一个稳定的模型服务。
+
+**vLLM** 是目前最主流的开源推理服务引擎之一，适合用作你本地/内网的“模型服务层”。
+
+### 6.1 从官网开始（新手最省心）
+- vLLM 官网：`https://vllm.ai/`
+- 官网提供更友好的安装/硬件选择路径（CPU/GPU 等），建议新手从这里进入。
+
+### 6.2 语义路由（进阶）
+当你有多个模型并存时，引入“语义路由”能把模型选择、安全过滤（脱狱/PII）、语义缓存、幻觉门控统一到同一层决策。
+- 深度文档：[`vLLM 语义路由深度解析`](../capabilities/vllm-semantic-routing-deep-dive.mdx)
+
+---
+
+## 7. 云基础设施：阿里云 (Aliyun) - 进阶工具链
+
+当你掌握了本地开发后，下一步就是把 Agent 部署到云端。阿里云提供了完整的云基础设施，让 Vibe Coding 的"短暂性"理念真正落地。
+
+### 7.1 核心服务速览
+
+| 服务 | 作用 | 新手友好度 | 典型场景 |
+|------|------|-----------|----------|
+| **ECS** (云服务器) | 远程电脑，可以跑 Docker | ⭐⭐⭐⭐ | 部署 Web 应用、Agent 服务 |
+| **OSS** (对象存储) | 云端硬盘 | ⭐⭐⭐⭐⭐ | 存文件、托管静态网站 |
+| **FC** (函数计算) | 无服务器函数 | ⭐⭐⭐⭐ | 定时任务、事件驱动 |
+| **ACK** (容器服务) | Kubernetes 集群 | ⭐⭐ | 多 Agent 并行处理 |
+
+### 7.2 阿里云 CLI：云端的"遥控器"
+
+**为什么需要 CLI？**
+- 网页控制台操作慢，无法自动化
+- CLI 可以被 Agent 调用，实现真正的"意图 → 云端"
+- 所有操作可追溯、可重复
+
+**快速安装**：
+
+```bash
+# macOS/Linux
+curl -s https://aliyuncli.alicdn.com/aliyun-cli-install-latest.sh | bash
+
+# 配置 Access Key
+aliyun configure
+
+# 测试
+aliyun ecs DescribeRegions
+```
+
+### 7.3 zcode + 阿里云：完整工作流
+
+```
+[你在 zcode 中输入意图]
+        ↓
+[Agent 生成代码 + Terraform 配置]
+        ↓
+[人类审核] ← 关键步骤！
+        ↓
+[terraform apply] → 自动创建 ECS
+        ↓
+[SSH 部署 Docker 容器]
+        ↓
+[zcode 内置浏览器验证]
+        ↓
+[实验完成后 terraform destroy]
+```
+
+### 7.4 学习路径
+
+1. **第 1-2 周**：本地 Docker 化应用
+   - 阅读：[Docker Mastery for Agents](../tools/docker-mastery-for-agents.mdx)
+   - 实践：在本地跑一个 Python Flask 容器
+
+2. **第 3-4 周**：部署到阿里云 ECS
+   - 阅读：[阿里云 + Vibe Coding 实战指南](../tools/aliyun-vibe-coding-practical-guide.mdx)
+   - 实践：完成案例 A（Flask + ECS）
+
+3. **第 5-6 周**：Serverless 进阶
+   - 实践：完成案例 B（函数计算 + OSS）
+
+### 7.5 成本提示
+
+- **学习实验**：使用按量付费，约 0.35 元/小时
+- **关键原则**：实验完成后立即释放资源（`terraform destroy`）
+- **成本控制**：设置费用告警（>100 元通知）
+
+### 7.6 快速上手（30 分钟）
+
+```bash
+# 1. 安装阿里云 CLI（见上方）
+# 2. 使用本仓库的启动脚本
+cd starter-kits/aliyun-vibe-coding
+./install-aliyun-cli.sh  # 或 Windows PowerShell 版本
+
+# 3. 部署第一个应用
+cd terraform-examples/ecs-docker
+terraform init
+terraform plan  # 预览
+terraform apply # 应用
+
+# 4. 访问应用
+curl http://$(terraform output app_url)
+
+# 5. 清理资源（重要！）
+terraform destroy
+```
+
+### 7.7 推荐资源
+
+- **完整指南**：[阿里云 + Vibe Coding 实战指南](../tools/aliyun-vibe-coding-practical-guide.mdx)
+- **实战案例**：[三个渐进式部署案例](../case-studies/aliyun-vibe-coding-deployment.mdx)
+- **启动脚本**：[starter-kits/aliyun-vibe-coding](../../starter-kits/aliyun-vibe-coding/)
+- **zcode 集成**：[zcode + 阿里云配置指南](../../starter-kits/aliyun-vibe-coding/zcode-integration-guide.md)
+
+> **Vibe Coding 第一定律实践**：所有云部署都追求"工业级、标准、鲁棒"，而非"最快速完成"。让 AI 承担繁琐的云配置工作，人类专注业务意图。
