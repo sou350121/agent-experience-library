@@ -18,6 +18,7 @@
   - **[能力边界](./docs/capabilities/README.md)**（底层逻辑/风险/模型限制）
   - **[Prompt 库](./docs/prompt-library/README.md)**（高精度模板/设计哲学）
   - **[模型对比](./docs/model-comparisons/README.md)**（硬核实测/工程对比）
+  - **[安全与防御](./docs/security/README.md)**（环境安全/隔离范式/资产保护）
   - **[案例复盘](./docs/case-studies/README.md)**（血泪教训/成功路径）
   - **[资源名录](./docs/resources/README.md)**（情报源/影响力图谱）
 

@@ -44,6 +44,7 @@
 | **[能力边界](./capabilities/)** | 穿透黑话，理解模型的能力与风险 | [README](./capabilities/README.md) |
 | **[Prompt 库](./prompt-library/)** | 沉淀高质量、原子级的 Prompt 模板 | [README](./prompt-library/README.md) |
 | **[案例复盘](./case-studies/)** | 真实的胜利与昂贵的失败记录 | [README](./case-studies/README.md) |
+| **[安全与防御](./security/)** | 环境安全、隔离范式与资产保护 | [README](./security/README.md) |
 | **[模型对比](./model-comparisons/)** | 硬核工程场景下的模型实测 | [README](./model-comparisons/README.md) |
 | **[资源名录](./resources/)** | AI 情报源与影响力图谱 | [README](./resources/README.md) |
 
