@@ -8,6 +8,7 @@
 
 ## 最近文章
 - [2026-01-19 智慧提純：Agent 管理學的興起——從指令到治理的範式遷移](2026-01-19-the-rise-of-agent-management.md)
+- [2026-01-19 10,924 倍的炸彈：DeepSeek mHC 複現報告與架構穩定性稅](2026-01-19-deepseek-mhc-reproduction-analysis.md)
 - [2026-01-19 GPT-5.2 Pro：超越模仿，AI 的「獨立演繹」時代已經到來](2026-01-19-gpt-5-2-pro-independent-deduction.md)
 - [2026-01-19 Ken Goldberg 對談錄：重估傳統機器人學、數據質量與基礎設施](2026-01-19-ken-goldberg-robotics-wisdom.md)
 - [2026-01-18 不再為人類設計軟體：清空經驗，面向新文明](2026-01-18-not-designing-for-humans.md)

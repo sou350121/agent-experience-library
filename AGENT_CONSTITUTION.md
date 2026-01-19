@@ -29,5 +29,12 @@
     - **物理导轨 (Rails)**：利用 `Hooks` 自动化常规流程（如 Lint, Test, Docs Sync），确保 Agent 执行在受控导轨上。
     - **知识注入 (Powers)**：通过 `Powers` 动态按需注入特定领域的专家知识，避免上下文过载。
 
+## 第四章：Agent 管理与治理 (Management & Governance)
+
+1.  **角色解耦**：复杂任务必须进行角色拆解（Commander/Planner/Implementer/Reviewer）。严禁单一 Agent 角色混淆导致的自惠式交付。
+2.  **Playbook 驱动**：所有常规工作流（如 Spec→PR, Multi-agent Squad）必须遵循已沉淀的 Playbook，确保过程可复现。
+3.  **门禁与回滚**：高风险操作必须经过 Gate 审核，且必须在执行前制定回滚方案。
+4.  **审计留痕**：所有终端命令与工具调用必须保留在 `agent_runs/` 日志中，确保责任可追溯。
+
 ---
 *本宪法是本仓库所有内容的最高准则。*

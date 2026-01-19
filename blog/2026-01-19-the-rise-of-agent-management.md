@@ -1,32 +1,32 @@
-# 智慧提纯：Agent 管理学的兴起——从指令到治理的范式迁移
+# 智慧提純：Agent 管理學的興起——從指令到治理的範式遷移
 
-隨著我們從單一 Agent 的嘗試進入到多 Agent 集群的工業化應用，一個全新的課題擺在所有 Builder 面前：**我們該如何管理這群「虛擬員工」？**
-
-## 🧠 核心洞见
-> **「管理 Agent 的本質，是在管理組織的熵值與審美。」**
-> 傳統管理學解決的是人的積極性問題，而 Agent 管理學解決的是智能的確定性、合規性與進化速度問題。
-
-## 🚀 為什麼我們需要「Agent 管理學」？
-
-1.  **從「黑盒指令」到「物理導軌」**：
-    依賴 Prompt 的管理是脆弱的。我們需要像管理真實員工一樣，為 Agent 建立入職標準、權限範圍（Sandbox）與行為準則（Steering Files）。
-
-2.  **品味 (Taste) 是新的管理邊界**：
-    當 AI 可以完成 90% 的執行工作時，剩餘 10% 的「判斷與審美」就成了管理的核心。管理者的職能正從「寫手」轉變為「策展人」與「驗證者」。
-
-3.  **智力資產的長效化**：
-    Agent 不是臨時工。通過建立治理框架，我們可以將 Agent 沉澱為組織的數字資產，實現知識的跨項目復用與自我進化。
-
-## 🛠 本次更新亮點
-
-在庫中，我們新增了 **[Agent 管理學](../docs/management/README.md)** 專題，重點涵蓋：
-- **[Agent 治理框架](../docs/management/agent-governance-framework.mdx)**：四大支柱（准入、過程、品質、演化）。
-- **Kiro 治理實踐**：如何利用配置驅動（Spec-Driven）實現工業級自動化。
-- **物理導軌與邏輯契約**：如何構建不崩盤的大型 Agent 項目。
-
-## 💡 寫在最後
-在 AI 時代，最優秀的管理者可能不再是那些最擅長社交的人，而是那些最擅長**定義標準**、**構建導軌**並擁有**極高審美品味**的人。
+> **信號**：隨著 Agent 進入複雜工程領域，單點的 Prompt 工程已顯疲態。我們需要一套像管理「人類組織」一樣的治理框架。
 
 ---
 
-詳細文檔請見：[`docs/management/README.md`](../docs/management/README.md)
+## 🚀 提純後的核心觀察
+
+### 1. 從「魔法指令」到「物理導軌」
+過去我們追求寫出「完美的提示詞」，現在我們追求構建「完美的執行軌道」。Agent 管理學的本質是：**用確定的流程（SOP）去約束不確定的模型行為**。
+
+### 2. 角色分工的必要性
+讓一個 Agent 同時扮演 PM、架構師、碼農和測試是不科學的。我們需要將其拆解為 **Commander, Planner, Implementer, Reviewer, Guard, Runner**。角色邊界越清晰，熵增就越慢。
+
+### 3. 門禁 (Gates) 是安全之源
+不具備回滾能力的 Agent 就像沒有剎車的賽車。Spec Gate、Exec Gate 和 Release Gate 是防止 Agent 在代碼庫中「裸奔」的核心防線。
+
+---
+
+## 💡 給實踐者的啟示
+
+1.  **建立你的 Playbooks**：不要每次都重新教 Agent 怎麼做。將成熟的工作流沉澱為 SOP（如：Spec → PR 流程）。
+2.  **先驗證後執行**：所有任務必須先有可驗證的驗收標準（Acceptance Criteria）。
+3.  **隔離與審計**：讓 Agent 在受控環境下執行，並保留完整的審計日誌。
+
+---
+
+詳細治理方案見庫中新模組：
+- **[Agent 管理學總覽](../../docs/agent-management/README.md)**
+- **[01 組織模型與角色分工](../../docs/agent-management/01-operating-model-and-roles.mdx)**
+- **[02 Playbook：從 Spec 到 PR](../../docs/agent-management/02-playbook-spec-to-pr.mdx)**
+- **[04 Playbook：風險治理與回滾](../../docs/agent-management/04-playbook-risk-and-rollback.mdx)**
