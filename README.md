@@ -7,6 +7,7 @@
 ## 🏗️ 核心专项
 - **[小白通关手册 (Beginner Guide)](./docs/beginner-guide/README.md)**：从 0 到 1 的 AI 驱动开发路径。
 - **[架构治理 (Architectural Governance)](./docs/architecture-governance/README.mdx)**：针对大型项目的物理导轨、逻辑契约与流程治理框架。
+- **[Agent 管理学 (Agent Management)](./docs/management/README.md)**：探索 AI 集群的治理、编排、品味管理与演化范式。
 
 ## 📌 怎么读（推荐顺序）
 - **如果你是小白**：请直接从 **[小白通关手册](./docs/beginner-guide/README.md)** 开始。
@@ -14,8 +15,10 @@
   - `docs/planning/hybrid-docops-agentops-best-practices.mdx`
   - `docs/planning/10x-tactical-integrated-workflow.mdx` (集成战术链路必看)
   - `docs/architecture-governance/README.mdx` (大型项目必看)
+  - `docs/management/README.md` (多 Agent 协作必看)
 - 再按兴趣深入：
   - **[计划与范式](./docs/planning/README.md)**（心智模型/范式/心法）
+  - **[Agent 管理学](./docs/management/README.md)**（治理/编排/品味管理）
   - **[工具链](./docs/tools/README.md)**（NotebookLM-py, CC Switch, Tmux, Docker 等）
   - **[能力边界](./docs/capabilities/README.md)**（MiroFish, 1XWM, 底层逻辑/风险）
   - **[Prompt 库](./docs/prompt-library/README.md)**（高精度模板/设计哲学）

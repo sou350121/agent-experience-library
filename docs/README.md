@@ -41,6 +41,7 @@
 | **[新手指南](./beginner-guide/)** | 从零开始的 AI 驱动开发路径 | [README](./beginner-guide/README.md) |
 | **[计划与范式](./planning/)** | 思考模型、协作范式与心法 | [README](./planning/README.md) |
 | **[架构治理](./architecture-governance/)** | 大型项目的物理导轨与契约 | [README](./architecture-governance/README.mdx) |
+| **[Agent 管理学](./management/)** | AI 集群的治理、编排与演化 | [README](./management/README.md) |
 | **[工具链](./tools/)** | Cursor/Docker/vLLM 等深度指南 | [README](./tools/README.md) |
 | **[能力边界](./capabilities/)** | 穿透黑话，理解模型的能力与风险 | [README](./capabilities/README.md) |
 | **[Prompt 库](./prompt-library/)** | 沉淀高质量、原子级的 Prompt 模板 | [README](./prompt-library/README.md) |
