@@ -7,6 +7,13 @@
 - 想深入沉淀：每条动态通常会对应或演化为 `docs/` 中的结构化文档。
 
 ## 最近文章
+- [2026-01-19 Ken Goldberg 對談錄：重估傳統機器人學、數據質量與基礎設施](2026-01-19-ken-goldberg-robotics-wisdom.md)
+- [2026-01-18 不再為人類設計軟體：清空經驗，面向新文明](2026-01-18-not-designing-for-humans.md)
+- [2026-01-16 智慧提純：AlphaOPT (經驗進化)、MiroFish (社會模擬) 與 Kiro (物理導軌)](2026-01-16-alphaopt-mirofish-kiro.md)
+- [2026-01-16 Vibe Coding 的部署摩擦：國內 vs 海外部署的「隱形成本」分析](2026-01-16-vibe-coding-deployment-friction.md)
+- [2026-01-15 1X World Model：具身智能的「想像力」範式](2026-01-15-1x-world-model-imagination-paradigm.md)
+- [2026-01-15 MiroFish：AI 智能體模擬平行世界，推演未來](2026-01-15-mirofish-social-simulation-future-prediction.md)
+- [2026-01-15 NotebookLM-py：將 NotebookLM 搬進命令行，解鎖 Agent 自動化研究能力](2026-01-15-notebooklm-py-cli-agent-capability.md)
 - [2026-01-09 Security Alert: Your IDE is an Auto-Execution Trap](2026-01-09-security-alert-ide-auto-execution.md)
 - [2026-01-09 RLinf: The Infrastructure for Embodied and Agentic AI](2026-01-09-rlinf-infrastructure-for-embodied-ai.md)
 - [2026-01-09 Disposable Software: The Edge Inference Paradigm](2026-01-09-disposable-software-and-edge-inference.md)

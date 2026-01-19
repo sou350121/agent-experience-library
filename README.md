@@ -36,6 +36,7 @@
 - **底层架构与能力**
   - [MiroFish：平行世界模擬與多智能體推演](./docs/capabilities/social-simulation-and-multi-agent-systems.mdx)
   - [1X World Model：具身智能的「想象力」範式](./docs/capabilities/1x-world-model-paradigm.mdx)
+  - [機器人引導程序理論：為什麼「老工程」是數據之鑰](./docs/capabilities/robotics-bootstrap-theory.mdx)
   - [一次性软体 (Disposable Software) 范式](./docs/capabilities/agent-execution-environment-cloud-vs-local.mdx)
 - **工具与案例**
   - [NotebookLM-py：研究 Agent 的最強能力組件](./docs/tools/notebooklm-py.mdx)

@@ -56,6 +56,7 @@
 - **想提炼方法论？** 查看 [写作模板](./_templates/README.md)。
 - **怕项目崩盘？** 阅读 [架构导轨：AI 时代的生存之道](./planning/architectural-rails-for-ai-coding.mdx)。
 - **想要模擬未來？** 查看 [MiroFish：平行世界預測引擎](./capabilities/social-simulation-and-multi-agent-systems.mdx)。
+- **理解機器人未來？** 查看 [機器人引導程序理論](./capabilities/robotics-bootstrap-theory.mdx)。
 - **尋找商業靈感？** 閱讀 [智力套利策略](./planning/intelligence-arbitrage-strategy.mdx)。
 - **拒绝 AI 廢話？** 學習 [真實性 vs 生成噪音](./capabilities/authenticity-vs-generated-noise.mdx)。
 
@@ -71,4 +72,4 @@
 
 ---
 
-*最后更新：2026.01.15*
+*最后更新：2026.01.19*
