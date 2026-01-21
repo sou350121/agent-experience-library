@@ -14,12 +14,15 @@
    - 怎么切任务、怎么合并、怎么减少冲突、怎么让 review 成为质量阀门。
 4. **[04 Playbook：风险治理与回滚](./04-playbook-risk-and-rollback.mdx)**
    - 把“出事概率”变成“可控流程”：权限、沙箱、审计、发布与回滚。
+5. **[05 Playbook：Ralph Loop 迭代范式与 AFK 指挥](./05-ralph-loop-iteration-paradigm.mdx)**
+   - 解决 Agent 的“半途而废”：Stop Hook、完成承诺与持续迭代生产线。
 
 ---
 
 ## ⭐ Top Picks（少而精）
 
 - **[Spec → PR 交付 Playbook](./02-playbook-spec-to-pr.mdx)**：一切从“可验证”开始。
+- **[Ralph Loop 迭代 Playbook](./05-ralph-loop-iteration-paradigm.mdx)**：让 Agent 持续工作直到真正完成。
 - **[多 Agent 编队 Playbook](./03-playbook-multi-agent-squad.mdx)**：把并行变成吞吐，而不是混乱。
 - **[风险与回滚 Playbook](./04-playbook-risk-and-rollback.mdx)**：面向真实世界的“安全刹车”。
 
@@ -38,6 +41,10 @@
 3️⃣ **“Review”不是礼貌，是质量阀门**
 - **逻辑思考**：多 Agent 并行的最大敌人不是速度，而是冲突与返工。Review 的职责是把“不可逆错误”拦在合并之前。
 - **启发**：把 review 变成制度化关卡，而不是临时的“看一眼”。
+
+4️⃣ **AFK：管理的终极杠杆是自动闭环**
+- **逻辑思考**：Ralph Loop 证明了，只要完成条件足够客观（測試、代碼狀態），我們就可以通過外部循環強制 Agent 持久工作，而不需要人類持續監督。
+- **启发**：將「信任」建立在可驗證的自動化檢測之上。
 
 ---
 

@@ -42,7 +42,7 @@
 | **[新手指南](./beginner-guide/)** | 从零开始的 AI 驱动开发路径 | [README](./beginner-guide/README.md) |
 | **[计划与范式](./planning/)** | 思考模型、协作范式与心法 | [README](./planning/README.md) |
 | **[架构治理](./architecture-governance/)** | 大型项目的物理导轨与契约 | [README](./architecture-governance/README.mdx) |
-| **[Agent 管理](./agent-management/)** | 编队、SOP、门禁与复盘 | [README](./agent-management/README.md) |
+| **[Agent 管理](./agent-management/)** | 编队、SOP、门禁、Ralph 迭代 | [README](./agent-management/README.md) |
 | **[工具链](./tools/)** | Cursor/Docker/vLLM 等深度指南 | [README](./tools/README.md) |
 | **[能力边界](./capabilities/)** | 穿透黑话，理解模型的能力与风险 | [README](./capabilities/README.md) |
 | **[Prompt 库](./prompt-library/)** | 沉淀高质量、原子级的 Prompt 模板 | [README](./prompt-library/README.md) |
@@ -59,6 +59,7 @@
 - **怕项目崩盘？** 阅读 [架构导轨：AI 时代的生存之道](./planning/architectural-rails-for-ai-coding.mdx)。
 - **想要模擬未來？** 查看 [MiroFish：平行世界預測引擎](./capabilities/social-simulation-and-multi-agent-systems.mdx)。
 - **理解架構穩定性？** 查看 [mHC 範式：信號守恆定律](./capabilities/manifold-hyper-connections-mhc.mdx)。
+- **解決 AI 退出早？** 查看 [Ralph Loop：持續迭代範式](./agent-management/05-ralph-loop-iteration-paradigm.mdx)。
 - **理解機器人未來？** 查看 [機器人引導程序理論](./capabilities/robotics-bootstrap-theory.mdx)。
 - **尋找商業靈感？** 閱讀 [智力套利策略](./planning/intelligence-arbitrage-strategy.mdx)。
 - **拒绝 AI 廢話？** 學習 [真實性 vs 生成噪音](./capabilities/authenticity-vs-generated-noise.mdx)。
@@ -75,4 +76,4 @@
 
 ---
 
-*最后更新：2026.01.19 (v2)*
+*最后更新：2026.01.21*
