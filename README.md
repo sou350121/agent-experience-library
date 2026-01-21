@@ -41,6 +41,7 @@
   - [一次性软体 (Disposable Software) 范式](./docs/capabilities/agent-execution-environment-cloud-vs-local.mdx)
 - **工具与案例**
   - [NotebookLM-py：研究 Agent 的最強能力組件](./docs/tools/notebooklm-py.mdx)
+  - [Eigent：開源多智能體工作流桌面應用](./docs/tools/eigent-open-source-cowork.mdx)
   - [DNA 级交付标准（结论→分析→方案→里程碑→PR）](./docs/tools/agent-dna-workflow.mdx)
   - [AI 创业 180 天失败录](./docs/case-studies/ai-startup-180-days-failure.mdx)
 

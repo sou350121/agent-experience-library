@@ -58,6 +58,7 @@
 - **想提炼方法论？** 查看 [写作模板](./_templates/README.md)。
 - **怕项目崩盘？** 阅读 [架构导轨：AI 时代的生存之道](./planning/architectural-rails-for-ai-coding.mdx)。
 - **想要模擬未來？** 查看 [MiroFish：平行世界預測引擎](./capabilities/social-simulation-and-multi-agent-systems.mdx)。
+- **構建開源團隊？** 查看 [Eigent：多智能體協同桌面應用](./tools/eigent-open-source-cowork.mdx)。
 - **理解架構穩定性？** 查看 [mHC 範式：信號守恆定律](./capabilities/manifold-hyper-connections-mhc.mdx)。
 - **解決 AI 退出早？** 查看 [Ralph Loop：持續迭代範式](./agent-management/05-ralph-loop-iteration-paradigm.mdx)。
 - **理解機器人未來？** 查看 [機器人引導程序理論](./capabilities/robotics-bootstrap-theory.mdx)。
