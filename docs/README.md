@@ -60,6 +60,7 @@
 - **想要模擬未來？** 查看 [MiroFish：平行世界預測引擎](./capabilities/social-simulation-and-multi-agent-systems.mdx)。
 - **構建開源團隊？** 查看 [Eigent：多智能體協同桌面應用](./tools/eigent-open-source-cowork.mdx)。
 - **理解架構穩定性？** 查看 [mHC 範式：信號守恆定律](./capabilities/manifold-hyper-connections-mhc.mdx)。
+- **解決預測不確定性？** 查看 [貝葉斯估計與不確定性量化](./capabilities/bayesian-estimation-and-uncertainty.mdx)。
 - **解決 AI 退出早？** 查看 [Ralph Loop：持續迭代範式](./agent-management/05-ralph-loop-iteration-paradigm.mdx)。
 - **理解機器人未來？** 查看 [機器人引導程序理論](./capabilities/robotics-bootstrap-theory.mdx)。
 - **尋找商業靈感？** 閱讀 [智力套利策略](./planning/intelligence-arbitrage-strategy.mdx)。
