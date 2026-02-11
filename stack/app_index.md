@@ -33,6 +33,11 @@
 | LlamaIndex | run-llama | 2026-02-11 | rag, agent | https://github.com/run-llama/llama_index | ✍️ seed |
 | AutoGen | microsoft | 2026-02-11 | multi-agent | https://github.com/microsoft/autogen | ✍️ seed |
 | CrewAI | crewAIInc | 2026-02-11 | multi-agent | https://github.com/crewAIInc/crewAI | ✍️ seed |
+| OnsetLab | — | 2026-02-11 |  | https://www.producthunt.com/products/onsetlab | 📖 daily 2026-02-11 |
+| autogen python-v0.7.1 | — | 2026-02-11 |  | https://github.com/microsoft/autogen/releases/tag/python-v0.7.1 | 🔧 daily 2026-02-11 |
+| crewAI 1.9.3 | — | 2026-02-11 |  | https://github.com/crewAIInc/crewAI/releases/tag/1.9.3 | 🔧 daily 2026-02-11 |
+| Dify 1.13.0 | — | 2026-02-11 |  | https://github.com/langgenius/dify/releases/tag/1.13.0 | ⚡ daily 2026-02-11 |
+| OpenEnv | — | 2026-02-11 |  | https://huggingface.co/blog/openenv | 📖 daily 2026-02-11 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
@@ -42,6 +47,7 @@
 | Flowise | FlowiseAI | 2026-02-11 | visual-builder | https://github.com/FlowiseAI/Flowise | ✍️ seed |
 | Langflow | langflow-ai | 2026-02-11 | visual-builder | https://github.com/langflow-ai/langflow | ✍️ seed |
 | Open WebUI | open-webui | 2026-02-11 | chat-ui | https://github.com/open-webui/open-webui | ✍️ seed |
+| Agent Builder by Thesys | — | 2026-02-11 |  | https://www.producthunt.com/products/thesys | ⚡ daily 2026-02-11 |
 
 ## RAG 工具链（Vector DB / Retrieval / Indexing）
 
@@ -51,6 +57,7 @@
 | Weaviate | weaviate | 2026-02-11 | vector-db | https://github.com/weaviate/weaviate | ✍️ seed |
 | Milvus | milvus-io | 2026-02-11 | vector-db | https://github.com/milvus-io/milvus | ✍️ seed |
 | pgvector | pgvector | 2026-02-11 | vector-db | https://github.com/pgvector/pgvector | ✍️ seed |
+| llama_index v0.14.13 | — | 2026-02-11 |  | https://github.com/run-llama/llama_index/releases/tag/v0.14.13 | 🔧 daily 2026-02-11 |
 
 ## API 包装器（Model API / Gateway / SDK）
 
@@ -74,6 +81,7 @@
 | Langfuse | langfuse | 2026-02-11 | observability | https://github.com/langfuse/langfuse | ✍️ seed |
 | promptfoo | promptfoo | 2026-02-11 | evals | https://github.com/promptfoo/promptfoo | ✍️ seed |
 | Helicone | Helicone | 2026-02-11 | observability | https://github.com/Helicone/helicone | ✍️ seed |
+| 0xAudit | — | 2026-02-11 |  | https://www.producthunt.com/products/0xaudit | 🔧 daily 2026-02-11 |
 
 ## 其他（Misc）
 
