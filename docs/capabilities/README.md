@@ -31,6 +31,14 @@
   - 揭秘如何構建擁有數千個人格 Agent 的數字雙生世界。
 - **[AlphaOPT：構建可進化的優化建模經驗庫](./alphaopt-self-improving-library.mdx)**
   - 如何讓 AI 通過學習與演化循環治理建模知識。
+- **[IntelliFold 2：开源生物基石模型的“工程化落地”信号（FoldBench 语境）](./intellifold2-open-source-biomolecular-foundation-model.mdx)**
+  - 从“结构预测”走向“可控 + 可审计流水线”：评估与落地清单（附官方来源）。
+- **[Agent 记忆系统：短期到长期架构](./agent-memory-system-short-to-long.mdx)**
+  - 上下文工程 + 可审计长期记忆：控成本、可回滚、可删除、抗投毒。
+- **[Emu3：Next-Token Prediction 统一多模态的世界模型路线](./emu3-next-token-multimodal-world-model-route.mdx)**
+  - tokenize everything + decoder-only + NTP：统一多模态并继承 LLM 基础设施的可扩展主干。
+- **[WaveFormer：用波动方程替代注意力的全局建模](./waveformer-wave-equation-vision.mdx)**
+  - 频率–时间解耦 + FFT 频域闭式解：用 O(N log N) 做全局交互并保高频细节。
 - **[具身 AI 经济学：从执行单元到经济代理](./embodied-ai-economic-agents.mdx)**
   - 探索 AI 如何走出屏幕，在物理世界构建 aGDP。
 - **[RLVR 与锯齿状智能：理解模型的短板](./jagged-intelligence-rlvr.mdx)**

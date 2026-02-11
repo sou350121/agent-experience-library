@@ -20,6 +20,8 @@
    - 探討如何清空舊有經驗，為 Agent 時代的「新文明」重新定義產品。
 7. **[架构导轨：AI 时代的生存之道](./architectural-rails-for-ai-coding.mdx)**
    - 理解物理导轨与逻辑契约在大型项目中的重要性。
+8. **[Anthropic 2026 Agentic Coding：8 大趋势 × 4 个优先级（工程化读法）](./anthropic-agentic-coding-trends-2026.mdx)**
+   - 把“趋势”翻译成协作协议、门禁与验收；给团队一套可落地的 Agentic SDLC 最小闭环。
 
 ---
 

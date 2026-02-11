@@ -16,8 +16,16 @@
    - 为什么 Docker 是 Agent 运行环境的唯一真理。
 5. **[Tmux：Agent 的任务会话堡垒](./tmux-guide.mdx)**
    - 如何在多任务并发下保持优雅的会话管理。
-6. **[多 Agent 协作流：从单兵作战到小队编排](./multi-agent-coding-workflow.mdx)**
+6. **[手机远程遥控 Agent：把 Claude Code 装进口袋](./mobile-remote-agent.mdx)**
+   - SSH + tmux + Tailscale：随时接管家里的终端与会话，移动端 1:1 还原体验。
+7. **[DCP：凸性检测规则速查（CVX/CVXPY 的“为什么不让写？”）](./dcp-convexity-checking-rules.mdx)**
+   - DCP 是充分非必要；给“报错→重构”的工程套路清单。
+8. **[Text-to-SQL 的真实解法：从“写 SQL”到“可审计的取数系统”](./text-to-sql-reliable-architecture.mdx)**
+   - 语义层 + schema linking + guardrails + 可追溯：把大模型关进取数系统的轨道。
+9. **[多 Agent 协作流：从单兵作战到小队编排](./multi-agent-coding-workflow.mdx)**
    - 探索让不同的模型（Claude/GPT）在同一个项目中各司其职。
+10. **[用纯 NumPy 吃透 30 篇论文复现：从 forward 到 backward](./sutskever-30-implementations-numpy.mdx)**
+   - 拒绝调包，手写梯度与注意力；把“会用框架”升级为“会推导 + 会实现”。
 
 ---
 

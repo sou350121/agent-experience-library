@@ -16,6 +16,8 @@
    - 把“出事概率”变成“可控流程”：权限、沙箱、审计、发布与回滚。
 5. **[05 Playbook：Ralph Loop 迭代范式与 AFK 指挥](./05-ralph-loop-iteration-paradigm.mdx)**
    - 解决 Agent 的“半途而废”：Stop Hook、完成承诺与持续迭代生产线。
+6. **[06 Playbook：Agent 评估体系（Evals）从 0 到 1](./06-agent-evals-playbook.mdx)**
+   - 把“感觉变差了”变成可回归的工程事实：task/trial/grader/harness、pass@k/pass^k、不同 agent 类型的评估套路。
 
 ---
 
@@ -25,6 +27,7 @@
 - **[Ralph Loop 迭代 Playbook](./05-ralph-loop-iteration-paradigm.mdx)**：让 Agent 持续工作直到真正完成。
 - **[多 Agent 编队 Playbook](./03-playbook-multi-agent-squad.mdx)**：把并行变成吞吐，而不是混乱。
 - **[风险与回滚 Playbook](./04-playbook-risk-and-rollback.mdx)**：面向真实世界的“安全刹车”。
+- **[Agent 评估体系 Playbook](./06-agent-evals-playbook.mdx)**：用 eval 把随机性关进笼子里。
 
 ---
 

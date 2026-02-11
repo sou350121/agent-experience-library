@@ -12,6 +12,16 @@
 - 每日歸檔：`blog/ai-daily-pick/YYYY-MM-DD.md`
 
 ## 最近文章
+- [2026-02-07 生成式科学智能的新标杆：IntelliFold 2 发布并开源（以及为什么这类模型不能“只看参数量”）](2026-02-07-intellifold2-open-source-generative-science.md)
+- [2026-02-05 为什么 Palantir 从不让 AI “回忆”数据？聊聊 Text-to-SQL 的真实解法](2026-02-05-palantir-no-recall-text-to-sql-real-solution.md)
+- [2026-02-05 DCP：凸性检测规则（为什么数学上凸，CVX/CVXPY 还是会报错？）](2026-02-05-dcp-convexity-checker-rules.md)
+- [2026-02-04 麦当劳中国用运筹学驯服供应链：52,500,000 个变量、10 分钟求解、真金白银落地](2026-02-04-mcdonalds-china-scnd-mip.md)
+- [2026-02-03 AAAI Oral：WaveFormer 的波动方程视角太狠了（用波传播替代注意力的全局建模）](2026-02-03-waveformer-wave-equation-vision.md)
+- [2026-02-01 DeepSeek 之后，智源 Emu3 登 Nature：下一 token 统一多模态，通往“世界模型”的路线图](2026-02-01-emu3-nature-next-token-world-model.md)
+- [2026-01-31 AI Agent 记忆系统：从短期到长期的技术架构与实践（上下文工程 + 长期记忆）](2026-01-31-agent-memory-system-short-to-long.md)
+- [2026-01-30 Anthropic 官方首发：Agent 评估体系怎么搭（编码 / 对话 / 研究 / 电脑操作）](2026-01-30-anthropic-agent-evals-playbook.md)
+- [2026-01-29 拒绝调包：纯 NumPy 手搓 Ilya 推荐的 30 篇论文复现，连反向传播都是手写的](2026-01-29-sutskever-30-papers-pure-numpy-implementations.md)
+- [2026-01-28 陪女朋友逛街时，我带上了 Claude Code：手机 1:1 还原电脑端体验（tmux + Tailscale）](2026-01-28-claude-code-on-phone-tmux-tailscale.md)
 - [2026-01-23 講透最強參數估計：貝葉斯估計（Bayesian Estimation）深度解析](2026-01-23-bayesian-estimation-parameter-uncertainty.md)
 - [2026-01-22 麥肯錫報告：智能體型組織（Agentic Organizations）的五大支柱與 1:20 管理法](2026-01-22-mckinsey-agentic-organizations.md)
 - [2026-01-21 開源版 Claude Cowork 降臨：Eigent 的 90 度增長與多智能體協同](2026-01-21-eigent-open-source-cowork-trending.md)
