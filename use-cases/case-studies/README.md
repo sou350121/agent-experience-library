@@ -47,5 +47,5 @@
 ---
 
 ## 🔗 关联章节
-- **[小白通关手册](../beginner-guide/README.md)**：查看这些案例中用到的基础招式。
-- **[计划与范式](../planning/README.md)**：这些成功案例背后遵循了哪些心法？
+- **[小白通关手册](../../implementation/getting-started/README.md)**：查看这些案例中用到的基础招式。
+- **[计划与范式](../../stack/methodology/planning/README.md)**：这些成功案例背后遵循了哪些心法？

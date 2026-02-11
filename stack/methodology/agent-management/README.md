@@ -61,6 +61,6 @@
 ## 🔗 关联章节
 
 - **[架构治理](../../../implementation/architecture/README.mdx)**：物理导轨与逻辑契约（项目级治理）。
-- **[计划与范式](../../stack/methodology/planning/README.md)**：心法与协作范式（认知级治理）。
+- **[计划与范式](../planning/README.md)**：心法与协作范式（认知级治理）。
 - **[安全与防御](../../../implementation/security/README.md)**：环境隔离与攻击面管理（风险级治理）。
 
