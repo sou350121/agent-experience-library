@@ -31,5 +31,5 @@
 ---
 
 ## 🔗 关联章节
-- **[Blog](../../blog/README.md)**：查看我們如何從這些資源中提取每日增量。
-- **[小白通关手册](../beginner-guide/README.md)**：了解如何低門檻地獲取這些進階資訊。
+- **[Blog](../blog/README.md)**：查看我們如何從這些資源中提取每日增量。
+- **[小白通关手册](../implementation/getting-started/README.md)**：了解如何低門檻地獲取這些進階資訊。

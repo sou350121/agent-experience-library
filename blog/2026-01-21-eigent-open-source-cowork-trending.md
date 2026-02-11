@@ -36,5 +36,5 @@ Eigent 引入了主動請求人工輸入的機制。當任務遇到模糊邊界�
 ---
 
 詳細工具指南與配置見：
-- **[Eigent：開源多智能體工作流桌面應用](../../docs/tools/eigent-open-source-cowork.mdx)**
-- **[多 Agent 編隊協作 Playbook](../../docs/agent-management/03-playbook-multi-agent-squad.mdx)**
+- **[Eigent：開源多智能體工作流桌面應用](../../stack/tools/eigent-open-source-cowork.mdx)**
+- **[多 Agent 編隊協作 Playbook](../../stack/methodology/agent-management/03-playbook-multi-agent-squad.mdx)**

@@ -109,5 +109,5 @@
 
 ## 5. 你想更专业一点（可选）
 
-- 进阶模板（工程/Agent 视角）：`docs/planning/prd-for-engineers-and-agents.mdx`
-- Prompt 索引菜单（开发全生命周期）：`docs/prompt-library/dev-lifecycle-cheat-sheet.mdx`
+- 进阶模板（工程/Agent 视角）：`stack/methodology/planning/prd-for-engineers-and-agents.mdx`
+- Prompt 索引菜单（开发全生命周期）：`implementation/prompts/dev-lifecycle-cheat-sheet.mdx`

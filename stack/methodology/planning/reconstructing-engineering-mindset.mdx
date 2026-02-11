@@ -19,14 +19,14 @@ Karpathy 和六叔提到的“9 级大地震”本质上是**软件工程抽象�
 
 ### 3.1 放弃寻找“说明书”
 AI 时代没有标准答案。README 往往在写完的那一刻就过时了。
-- **策略**：Build in Public。在实践中复盘失败路径，将其转化为 Agent 的“负向记忆”（参考 [失败路径记录模板](../docs/_templates/failure-log.mdx)）。
+- **策略**：Build in Public。在实践中复盘失败路径，将其转化为 Agent 的“负向记忆”（参考 [失败路径记录模板](../../../implementation/templates/failure-log.mdx)）。
 
 ### 3.2 融合“严谨”与“随机”
 这是最痛苦的部分：将严谨的编译器/测试框架，与充满随机性的 LLM 强行缝合。
 - **心智转变**：不再追求“代码一次写对”，而是追求“系统能自动发现并纠正错误”。
 
 ### 3.3 构建“混合单事实源”（Hybrid SSOT）
-利用 [DocOps + AgentOps](../docs/planning/hybrid-docops-agentops-best-practices.mdx) 的理念，将需求（Story）、提示词（Prompt）和执行过程（Session）全部纳入版本控制，让工程过程可追溯、可复现。
+利用 [DocOps + AgentOps](./hybrid-docops-agentops-best-practices.mdx) 的理念，将需求（Story）、提示词（Prompt）和执行过程（Session）全部纳入版本控制，让工程过程可追溯、可复现。
 
 ---
 
@@ -37,4 +37,4 @@ AI 时代没有标准答案。README 往往在写完的那一刻就过时了。
 
 > **行动建议**：
 > 1. 立即尝试用 [Vibe Coding](./vibe-coding-paradigm.mdx) 完成一个你以前觉得“太麻烦不想写”的小工具。
-> 2. 配置你的 [MCP 节点](../docs/tools/cc-switch-guide.mdx)，让 AI 拥有读写本地文件的真实权力。
+> 2. 配置你的 [MCP 节点](../../tools/cc-switch-guide.mdx)，让 AI 拥有读写本地文件的真实权力。

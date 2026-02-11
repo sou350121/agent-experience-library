@@ -60,7 +60,7 @@
 > - **墙外（Prompt）**：是随机、不可控的（Unsafe）。
 > 我们的目标是：让这堵“确定性”的墙越来越厚，让 AI 在既定的轨道上干活，而不是乱跑。
 
-- **怎么用**：在本仓库的 `docs/prompt-library/` 中有很多类似的逻辑，你可以直接复制这些 Skill 的“内核”给 AI。
+- **怎么用**：在本仓库的 `implementation/prompts/` 中有很多类似的逻辑，你可以直接复制这些 Skill 的“内核”给 AI。
 
 ## 4. 为什么你需要这套“组合拳”？
 如果没有这套组合，你只是在用网页版 ChatGPT：
@@ -83,7 +83,7 @@
    - 这里的规则就是你给 AI 定义的“轨道”。
 
 更多黑话解释见：
-- [小白版黑话词典：单行道与围栏](../architecture-governance/00-glossary-for-beginners.mdx)
+- [小白版黑话词典：单行道与围栏](../architecture/00-glossary-for-beginners.mdx)
 
 ---
 
@@ -98,11 +98,11 @@
 ### 6.1 从官网开始（新手最省心）
 - vLLM 官网：`https://vllm.ai/`
 - 官网提供更友好的安装/硬件选择路径（CPU/GPU 等），建议新手从这里进入。
-- 快速理解：[`vLLM 是什么？为什么叫 vLLM？`](../tools/vllm-basics-and-naming.mdx)
+- 快速理解：[`vLLM 是什么？为什么叫 vLLM？`](../../stack/tools/vllm-basics-and-naming.mdx)
 
 ### 6.2 语义路由（进阶）
 当你有多个模型并存时，引入“语义路由”能把模型选择、安全过滤（脱狱/PII）、语义缓存、幻觉门控统一到同一层决策。
-- 深度文档：[`vLLM 语义路由深度解析`](../capabilities/vllm-semantic-routing-deep-dive.mdx)
+- 深度文档：[`vLLM 语义路由深度解析`](../../stack/frameworks/vllm-semantic-routing-deep-dive.mdx)
 
 ---
 
@@ -199,8 +199,8 @@ terraform destroy
 
 ### 7.7 推荐资源
 
-- **完整指南**：[阿里云 + Vibe Coding 实战指南](../tools/aliyun-vibe-coding-practical-guide.mdx)
-- **实战案例**：[三个渐进式部署案例](../case-studies/aliyun-vibe-coding-deployment.mdx)
+- **完整指南**：[阿里云 + Vibe Coding 实战指南](../../stack/tools/aliyun-vibe-coding-practical-guide.mdx)
+- **实战案例**：[三个渐进式部署案例](../../use-cases/case-studies/aliyun-vibe-coding-deployment.mdx)
 - **启动脚本**：[starter-kits/aliyun-vibe-coding](../../starter-kits/aliyun-vibe-coding/)
 - **zcode 集成**：[zcode + 阿里云配置指南](../../starter-kits/aliyun-vibe-coding/zcode-integration-guide.md)
 

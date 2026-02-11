@@ -26,5 +26,5 @@
 ---
 
 ## 🔗 關聯章節
-- **[架構治理](../architecture-governance/README.mdx)**：物理導軌不僅是為了整潔，更是為了安全。
-- **[工具鏈](../tools/README.md)**：查看 Docker 與一次性沙箱的選型建議。
+- **[架構治理](../architecture/README.mdx)**：物理導軌不僅是為了整潔，更是為了安全。
+- **[工具鏈](../../stack/tools/README.md)**：查看 Docker 與一次性沙箱的选型建议。

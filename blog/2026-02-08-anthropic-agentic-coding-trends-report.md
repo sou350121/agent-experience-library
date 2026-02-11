@@ -54,5 +54,5 @@ Anthropic 在《2026 Agentic Coding Trends Report》里给了一个非常“反�
 6. 日志与审计链：谁发起、改了什么、跑了什么、如何回放  
 7. 做一个 7 天试点：用 CFR/回滚次数/验收覆盖率衡量“净生产力”
 
-更完整的工程化版本我已经沉淀到 Docs：[`docs/planning/anthropic-agentic-coding-trends-2026.mdx`](../docs/planning/anthropic-agentic-coding-trends-2026.mdx)。
+更完整的工程化版本我已经沉淀到 Stack：[`stack/methodology/planning/anthropic-agentic-coding-trends-2026.mdx`](../stack/methodology/planning/anthropic-agentic-coding-trends-2026.mdx)。
 

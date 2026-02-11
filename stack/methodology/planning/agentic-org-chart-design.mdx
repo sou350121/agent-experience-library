@@ -7,7 +7,7 @@ Hayes 提供的 `.claude/agents/` 目录结构，为我们展示了 [一人公�
 很多人觉得一个“全能 Agent”最强，但在复杂工程中，**高度细分**才是王道。
 
 - **职责解耦**：当 `legal-compliance-checker.md` 只负责合规时，它的提示词（System Prompt）可以写得极其深入，而不会被无关信息干扰。
-- **并行编排**：不同的 Agent 可以通过不同的 [Skill 或 MCP](../capabilities/skill-vs-mcp-architecture.mdx) 独立运作，形成协作流。
+- **并行编排**：不同的 Agent 可以通过不同的 [Skill 或 MCP](../../frameworks/skill-vs-mcp-architecture.mdx) 独立运作，形成协作流。
 
 ## 2. 目录结构拆解 (参考 Hayes 范式)
 
@@ -30,7 +30,7 @@ Hayes 提供的 `.claude/agents/` 目录结构，为我们展示了 [一人公�
 
 这些 Agent 文件本质上是它的**“数字入职合同”**，建议包含：
 - **Role (角色)**：明确它在这个组织里的唯一身份。
-- **Capabilities (能力)**：它被允许调用的 [MCP 节点](../docs/tools/cc-switch-guide.mdx) 列表。
+- **Capabilities (能力)**：它被允许调用的 [MCP 节点](../../tools/cc-switch-guide.mdx) 列表。
 - **Constraints (约束)**：它绝对不能做的事情（例如：未经审计不得修改财务文件）。
 - **Output Standards (交付标准)**：它的产出必须符合什么格式。
 

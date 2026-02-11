@@ -24,4 +24,4 @@
 ---
 
 詳細分析見庫中文檔：
-- [獨立推理與證明邏輯範式](../docs/capabilities/independent-reasoning-and-proof-logic.mdx)
+- [獨立推理與證明邏輯範式](../stack/frameworks/independent-reasoning-and-proof-logic.mdx)

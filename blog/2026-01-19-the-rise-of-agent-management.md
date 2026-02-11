@@ -26,7 +26,7 @@
 ---
 
 詳細治理方案見庫中新模組：
-- **[Agent 管理學總覽](../../docs/agent-management/README.md)**
-- **[01 組織模型與角色分工](../../docs/agent-management/01-operating-model-and-roles.mdx)**
-- **[02 Playbook：從 Spec 到 PR](../../docs/agent-management/02-playbook-spec-to-pr.mdx)**
-- **[04 Playbook：風險治理與回滾](../../docs/agent-management/04-playbook-risk-and-rollback.mdx)**
+- **[Agent 管理學總覽](../../stack/methodology/agent-management/README.md)**
+- **[01 組織模型與角色分工](../../stack/methodology/agent-management/01-operating-model-and-roles.mdx)**
+- **[02 Playbook：從 Spec 到 PR](../../stack/methodology/agent-management/02-playbook-spec-to-pr.mdx)**
+- **[04 Playbook：風險治理與回滾](../../stack/methodology/agent-management/04-playbook-risk-and-rollback.mdx)**

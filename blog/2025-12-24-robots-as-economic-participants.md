@@ -14,4 +14,4 @@ Virtuals Protocol (@virtuals_io) 最近完成了一项具有里程碑意义的�
 
 <!-- truncate -->
 
-> 深度分析：[具身 AI 经济学：当机器人拥有了“钱包”](../docs/capabilities/embodied-ai-economic-agents.mdx)
+> 深度分析：[具身 AI 经济学：当机器人拥有了“钱包”](../stack/frameworks/embodied-ai-economic-agents.mdx)

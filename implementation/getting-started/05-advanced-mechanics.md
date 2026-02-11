@@ -73,4 +73,4 @@ MCP (Model Context Protocol) 是让 AI 连接真实世界的插座。
 
 ---
 > 恭喜你！你已经跨过了小白阶段，掌握了指挥 AI 的全套基本功。
-> 接下来，去 [提示词库](../prompt-library/README.md) 挑选一个你的“神笔”开始创作吧！
+> 接下来，去 [提示词库](../prompts/README.md) 挑选一个你的“神笔”开始创作吧！

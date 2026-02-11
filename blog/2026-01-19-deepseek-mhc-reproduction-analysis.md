@@ -28,4 +28,4 @@
 ---
 
 詳細技術分析見庫中文檔：
-- [mHC 範式：具身智能與大規模模型中的信號守恆](../../docs/capabilities/manifold-hyper-connections-mhc.mdx)
+- [mHC 範式：具身智能與大規模模型中的信號守恆](../../stack/frameworks/manifold-hyper-connections-mhc.mdx)

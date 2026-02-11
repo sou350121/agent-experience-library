@@ -20,4 +20,4 @@ Poetiq 最近的一项研究震撼了 AI 圈：在底座模型（GPT-5.2 xhigh�
 
 <!-- truncate -->
 
-> 深度分析见：[推理编排与元系统：榨干 LLM 的最后一滴潜力](../docs/capabilities/agentic-orchestration-meta-system.mdx)
+> 深度分析见：[推理编排与元系统：榨干 LLM 的最后一滴潜力](../stack/frameworks/agentic-orchestration-meta-system.mdx)

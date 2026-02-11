@@ -75,7 +75,7 @@
 
 ## 详细配置教程（tmux + Tailscale）
 
-更系统的版本我也整理到了 docs：[`docs/tools/mobile-remote-agent.mdx`](../docs/tools/mobile-remote-agent.mdx)。
+更系统的版本我也整理到了 Stack：[`stack/tools/mobile-remote-agent.mdx`](../stack/tools/mobile-remote-agent.mdx)。
 
 这里先给一份可复现的快速步骤。
 

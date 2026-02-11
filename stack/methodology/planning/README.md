@@ -59,6 +59,6 @@
 ---
 
 ## 🔗 关联章节
-- **[小白通关手册](../beginner-guide/README.md)**：如果你还在犹豫如何起步。
-- **[架构治理](../architecture-governance/README.mdx)**：当你准备接手或规划大型项目。
-- **[工具链](../tools/README.md)**：查看这些范式在具体工具（如 Cursor/vLLM）中如何落地。
+- **[小白通关手册](../../../implementation/getting-started/README.md)**：如果你还在犹豫如何起步。
+- **[架构治理](../../../implementation/architecture/README.mdx)**：当你准备接手或规划大型项目。
+- **[工具链](../../tools/README.md)**：查看这些范式在具体工具（如 Cursor/vLLM）中如何落地。

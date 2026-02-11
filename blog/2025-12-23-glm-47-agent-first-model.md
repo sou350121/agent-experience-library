@@ -19,4 +19,4 @@ tags: [model-comparison, agents, GLM, MoE]
 
 <!-- truncate -->
 
-> 详细优劣势对比见：[GLM-4.7 模型评测](../docs/model-comparisons/glm-47-review.mdx)
+> 详细优劣势对比见：[GLM-4.7 模型评测](../stack/model-comparisons/glm-47-review.mdx)

@@ -14,8 +14,8 @@ tags: [fashion, lookbook, prompt-engineering, minimalism, aesthetic, design]
 3.  **高强度负向约束 (Negative Guardrails)**：通过排除“戏剧化灯光”、“夸张姿势”、“大字标题”，强制 AI 回归到那种清冷、自然、不做作的独立设计师品牌审美。
 
 ### 10x 工程师的审美进化
-在 [电商 KV 系统](../../blog/2025-12-25-ecommerce-kv-visual-system-meta-prompt.md) 之后，这份提示词补齐了“垂直领域品牌构建”的拼图。它告诉我们：**AI 的上限不在于它能画多华丽，而在于你如何通过约束让它学会“留白”。**
+在 [电商 KV 系统](./2025-12-25-ecommerce-kv-visual-system-meta-prompt.md) 之后，这份提示词补齐了“垂直领域品牌构建”的拼图。它告诉我们：**AI 的上限不在于它能画多华丽，而在于你如何通过约束让它学会“留白”。**
 
 <!-- truncate -->
 
-> 完整模板见：[独立女装品牌 Lookbook 提示词模板](../../docs/prompt-library/independent-fashion-lookbook-template.mdx)
+> 完整模板见：[独立女装品牌 Lookbook 提示词模板](../implementation/prompts/independent-fashion-lookbook-template.mdx)

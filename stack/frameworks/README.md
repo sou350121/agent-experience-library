@@ -71,5 +71,5 @@
 ---
 
 ## 🔗 关联章节
-- **[计划与范式](../planning/README.md)**：基于这些能力边界，我们演化出了哪些协作范式？
+- **[计划与范式](../methodology/planning/README.md)**：基于这些能力边界，我们演化出了哪些协作范式？
 - **[工具链](../tools/README.md)**：查看这些范式在具体工具（如 Kiro/NotebookLM）中如何落地。
