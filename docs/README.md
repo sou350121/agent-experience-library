@@ -1,6 +1,6 @@
 # Legacy Docs（迁移中）
 
-> ⚠️ `docs/` 是本仓库的历史遗留结构，目前正在迁移到新的 GitHub 直读结构：`stack/` + `implementation/` + `reports/`。
+> ⚠️ `docs/` 是本仓库的历史遗留结构，目前已大部分迁移到新的 GitHub 直读结构：`stack/` + `implementation/` + `reports/` + `use-cases/`。
 
 请优先从根目录开始：
 
@@ -19,4 +19,11 @@
 - `docs/security/` → `implementation/security/`
 - `docs/resources/` → `resources/`
 
-其余目录将按波次迁移（见 [`cursor_repo_restructure_prompt.md`](../cursor_repo_restructure_prompt.md)）。
+- `docs/tools/` → `stack/tools/`
+- `docs/capabilities/` → `stack/frameworks/`
+- `docs/planning/` → `stack/methodology/planning/`
+- `docs/agent-management/` → `stack/methodology/agent-management/`
+- `docs/model-comparisons/` → `stack/model-comparisons/`
+- `docs/case-studies/` → `use-cases/case-studies/`
+
+执行细节见：[`cursor_repo_restructure_prompt.md`](../cursor_repo_restructure_prompt.md)
