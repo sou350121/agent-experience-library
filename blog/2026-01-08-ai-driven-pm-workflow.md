@@ -37,8 +37,8 @@
 ---
 
 ## 🧭 延伸阅读与工具
-- **进阶方法论**：[用 Agent 写 PRD：小白一键生成需求说明书](../docs/beginner-guide/06-prd-with-agents.md)
-- **工程治理**：[规约驱动开发 (Spec-driven)](../docs/capabilities/ai-coding-agent-architecture.mdx)
+- **进阶方法论**：[用 Agent 写 PRD：小白一键生成需求说明书](../implementation/getting-started/06-prd-with-agents.md)
+- **工程治理**：[规约驱动开发 (Spec-driven)](../stack/frameworks/ai-coding-agent-architecture.mdx)
 - **原型工具**：[Lovable](https://lovable.dev/) / [Alloy](https://alloy.com/)
 
 ---

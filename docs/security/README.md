@@ -1,30 +1,5 @@
-# 安全与防御 (Security & Safety)
+# Legacy：Security（已迁移）
 
-> **核心使命：** 在追求 10x 生产力的同时，守住开发者的底线。本专项聚焦於 AI 時代的環境安全、供鏈攻擊防禦以及開發者的資產保護。
+本目录内容已迁移至：
 
----
-
-## 🧠 核心洞见
-
-1️⃣ **环境即代码，配置即攻击**
-- **逻辑思考**：現代 IDE（Cursor, VS Code）不只是代碼查看器，它們是「自動化執行器」。當你打開一個 Repo，ESLint、Vite 或 Next.js 的配置檔（本質是 JS 代碼）會被 IDE 自動加載並執行。
-- **启发**：在 AI 時代，速度是優勢，但「信任」是陷阱。除非 Repo 在隔離環境（Sandbox/Docker）中運行，否則「Trust no Repo」。
-
-2️⃣ **生產力放大，風險也隨之放大**
-- **逻辑思考**：AI 讓你開發變快，也讓惡意代碼的擴散變快。如果你將對 AI 的信任轉化為對陌生代碼的盲從，你的電腦私鑰就是攻擊者的「提款機」。
-- **启发**：安全不是一個 Checkbox，它是 Vibe Coding 的「無塵室」。沒有隔離環境的 Vibe，是在裸奔。
-
----
-
-## 🧭 推薦閱讀順序
-
-1. **[警報：IDE 自動執行配置導致的私鑰外洩](./ide-auto-execution-risks.mdx)**
-   - 必看！理解為什麼僅僅「打開項目」就可能讓你丟掉所有 SSH Key。
-2. **[隔離開發範式：從 VM 到 Docker Remote]** (規劃中)
-   - 如何構建一套既快速又防彈的開發環境。
-
----
-
-## 🔗 關聯章節
-- **[架構治理](../architecture-governance/README.mdx)**：物理導軌不僅是為了整潔，更是為了安全。
-- **[工具鏈](../tools/README.md)**：查看 Docker 與一次性沙箱的選型建議。
+- [`implementation/security/README.md`](../../implementation/security/README.md)

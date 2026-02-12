@@ -20,4 +20,4 @@ tags: [claude-code, boris-cherny, karpathy, vibe-coding, engineering-culture, mi
 
 <!-- truncate -->
 
-> 深度分析：[Boris 范式：如何通过 Agent 编排实现 20 个并行开发](../docs/capabilities/ai-native-debugging-vs-manual-profiling.mdx)
+> 深度分析：[Boris 范式：如何通过 Agent 编排实现 20 个并行开发](../stack/frameworks/ai-native-debugging-vs-manual-profiling.mdx)

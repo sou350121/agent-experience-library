@@ -19,4 +19,4 @@ AI 领域教母级人物李飞飞（Fei-Fei Li）在最近的访谈中，对技�
 
 <!-- truncate -->
 
-> 详细深度分析见：[AI 教育革命](../docs/planning/ai-education-revolution.mdx) 与 [梯度下降人生法](../docs/planning/gradient-descent-life-strategy.mdx)
+> 详细深度分析见：[AI 教育革命](../stack/methodology/planning/ai-education-revolution.mdx) 与 [梯度下降人生法](../stack/methodology/planning/gradient-descent-life-strategy.mdx)
