@@ -42,6 +42,9 @@
 | GLM-5: Targeting complex systems engineering and long-horizon agentic tasks | Z.ai | 2026-02-12 | agent, agentic, glm | https://z.ai/blog/glm-5 | ⚡ daily 2026-02-12 — GLM-5 专注复杂系统工程与长周期 Agent 任务 |
 | Show HN: Agent framework that generates its own topology and evolves at runtime | adenhq | 2026-02-12 | agent, evolution, topology | https://github.com/adenhq/hive/blob/main/README.md | ⚡ daily 2026-02-12 — 运行时自生成拓扑并进化的 Agent 框架 |
 | AutoGen v0.4 | Microsoft | 2026-02-12 | agent, framework, async | https://devblogs.microsoft.com/autogen/autogen-reimagined-launching-autogen-0-4/ | ⚡ daily 2026-02-12 — AutoGen v0.4 重构，聚焦异步、模块化和可扩展性 |
+| LangChain 1.2.12 | langchain-ai | 2026-02-13 | agent, framework, core | https://github.com/langchain-ai/langchain/releases/tag/langchain-core-v1.2.12 | 🔧 daily 2026-02-13 |
+| CrewAI 1.9.1 | crewAIInc | 2026-02-13 | agent, structured-outputs, hooks | https://github.com/crewAIInc/crewAI/releases/tag/1.9.1 | 🔧 daily 2026-02-13 |
+| Dify 1.11.4 | langgenius | 2026-02-13 | security, deployment, nodejs | https://github.com/langgenius/dify/releases/tag/1.11.4 | 🔧 daily 2026-02-13 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
@@ -95,6 +98,7 @@
 | ScreenSuite - The most comprehensive evaluation suite for GUI Agents! | Hugging Face | 2026-02-12 | agent, evaluation, gui | https://huggingface.co/blog/screensuite | [evaluation] | ⚡ daily 2026-02-12 — ScreenSuite：最全面的 GUI Agent 评估套件 |
 | CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models | Hugging Face | 2026-02-12 | evaluation, cybersecurity, framework | https://huggingface.co/blog/leaderboard-llamaguard | [evaluation] | ⚡ daily 2026-02-12 — CyberSecEval 2：LLM 网络安全风险与能力综合评估框架 |
 | Announcing Evaluation on the Hub | Hugging Face | 2026-02-12 | evaluation, hub, platform | https://huggingface.co/blog/eval-on-the-hub | [evaluation] | ⚡ daily 2026-02-12 — Hub 上的评估功能正式发布 |
+| Promptfoo 0.120.24 | promptfoo | 2026-02-13 | evaluation, mcp, filtering | https://github.com/promptfoo/promptfoo/releases/tag/0.120.24 | [evaluation] | 🔧 daily 2026-02-13 |
 
 ## 其他（Misc）
 
