@@ -38,6 +38,10 @@
 | crewAI 1.9.3 | — | 2026-02-11 |  | https://github.com/crewAIInc/crewAI/releases/tag/1.9.3 | 🔧 daily 2026-02-11 |
 | Dify 1.13.0 | — | 2026-02-11 |  | https://github.com/langgenius/dify/releases/tag/1.13.0 | ⚡ daily 2026-02-11 |
 | OpenEnv | — | 2026-02-11 |  | https://huggingface.co/blog/openenv | 📖 daily 2026-02-11 |
+| happycapy | — | 2026-02-12 | agent, desktop | https://www.producthunt.com/products/happycapy | ⚡ daily 2026-02-12 — 面向普通用户的本地 Agent 计算机 |
+| GLM-5: Targeting complex systems engineering and long-horizon agentic tasks | Z.ai | 2026-02-12 | agent, agentic, glm | https://z.ai/blog/glm-5 | ⚡ daily 2026-02-12 — GLM-5 专注复杂系统工程与长周期 Agent 任务 |
+| Show HN: Agent framework that generates its own topology and evolves at runtime | adenhq | 2026-02-12 | agent, evolution, topology | https://github.com/adenhq/hive/blob/main/README.md | ⚡ daily 2026-02-12 — 运行时自生成拓扑并进化的 Agent 框架 |
+| AutoGen v0.4 | Microsoft | 2026-02-12 | agent, framework, async | https://devblogs.microsoft.com/autogen/autogen-reimagined-launching-autogen-0-4/ | ⚡ daily 2026-02-12 — AutoGen v0.4 重构，聚焦异步、模块化和可扩展性 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
@@ -48,6 +52,10 @@
 | Langflow | langflow-ai | 2026-02-11 | visual-builder | https://github.com/langflow-ai/langflow | ✍️ seed |
 | Open WebUI | open-webui | 2026-02-11 | chat-ui | https://github.com/open-webui/open-webui | ✍️ seed |
 | Agent Builder by Thesys | — | 2026-02-11 |  | https://www.producthunt.com/products/thesys | ⚡ daily 2026-02-11 |
+| github/gh-aw | github | 2026-02-12 | agent, devtools | https://github.com/github/gh-aw | 🎯 agent-ui | ⚡ daily 2026-02-12 — 面向编码 Agent 的 Chrome DevTools |
+| Open WebUI v0.7.0 | open-webui | 2026-02-12 | function calling, tools, web-research | https://github.com/open-webui/open-webui/releases/tag/v0.7.0 | 🎯 agent-ui | ⚡ daily 2026-02-12 — 原生函数调用支持，可执行多步任务 |
+| Microsoft Agent Framework AG-UI Integration | Microsoft | 2026-02-12 | agent-ui, ag-ui, framework | https://techcommunity.microsoft.com/blog/azuredevcommunityblog/building-interactive-agent-uis-with-ag-ui-and-microsoft-agent-framework/4488249 | 🎯 agent-ui | ⚡ daily 2026-02-12 — 微软 Agent 框架集成 AG-UI 协议，实现标准化前端交互 |
+| Google ADK Visual Agent Builder | Google | 2026-02-12 | agent-ui, visual-builder, adk | https://google.github.io/adk-docs/visual-builder/ | 🎯 agent-ui | ⚡ daily 2026-02-12 — Google ADK 可视化 Agent 构建器，支持自然语言转架构 |
 
 ## RAG 工具链（Vector DB / Retrieval / Indexing）
 
@@ -58,6 +66,8 @@
 | Milvus | milvus-io | 2026-02-11 | vector-db | https://github.com/milvus-io/milvus | ✍️ seed |
 | pgvector | pgvector | 2026-02-11 | vector-db | https://github.com/pgvector/pgvector | ✍️ seed |
 | llama_index v0.14.13 | — | 2026-02-11 |  | https://github.com/run-llama/llama_index/releases/tag/v0.14.13 | 🔧 daily 2026-02-11 |
+| Introducing RTEB: A New Standard for Retrieval Evaluation | Hugging Face | 2026-02-12 | retrieval, evaluation, benchmark | https://huggingface.co/blog/rteb | [RAG] | ⚡ daily 2026-02-12 — RTEB：检索评估新标准 |
+| Dify v1.12.0 - Introducing Summary Index: Smarter Retrieval with AI Summarization | langgenius | 2026-02-12 | retrieval, vector, embedding, summary | https://github.com/langgenius/dify/releases/tag/1.12.0 | [RAG] | ⚡ daily 2026-02-12 — 引入摘要索引，通过 AI 摘要提升检索准确性 |
 
 ## API 包装器（Model API / Gateway / SDK）
 
@@ -82,6 +92,9 @@
 | promptfoo | promptfoo | 2026-02-11 | evals | https://github.com/promptfoo/promptfoo | ✍️ seed |
 | Helicone | Helicone | 2026-02-11 | observability | https://github.com/Helicone/helicone | ✍️ seed |
 | 0xAudit | — | 2026-02-11 |  | https://www.producthunt.com/products/0xaudit | 🔧 daily 2026-02-11 |
+| ScreenSuite - The most comprehensive evaluation suite for GUI Agents! | Hugging Face | 2026-02-12 | agent, evaluation, gui | https://huggingface.co/blog/screensuite | [evaluation] | ⚡ daily 2026-02-12 — ScreenSuite：最全面的 GUI Agent 评估套件 |
+| CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models | Hugging Face | 2026-02-12 | evaluation, cybersecurity, framework | https://huggingface.co/blog/leaderboard-llamaguard | [evaluation] | ⚡ daily 2026-02-12 — CyberSecEval 2：LLM 网络安全风险与能力综合评估框架 |
+| Announcing Evaluation on the Hub | Hugging Face | 2026-02-12 | evaluation, hub, platform | https://huggingface.co/blog/eval-on-the-hub | [evaluation] | ⚡ daily 2026-02-12 — Hub 上的评估功能正式发布 |
 
 ## 其他（Misc）
 
