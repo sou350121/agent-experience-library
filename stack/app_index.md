@@ -45,6 +45,8 @@
 | LangChain 1.2.12 | langchain-ai | 2026-02-13 | agent, framework, core | https://github.com/langchain-ai/langchain/releases/tag/langchain-core-v1.2.12 | 🔧 daily 2026-02-13 |
 | CrewAI 1.9.1 | crewAIInc | 2026-02-13 | agent, structured-outputs, hooks | https://github.com/crewAIInc/crewAI/releases/tag/1.9.1 | 🔧 daily 2026-02-13 |
 | Dify 1.11.4 | langgenius | 2026-02-13 | security, deployment, nodejs | https://github.com/langgenius/dify/releases/tag/1.11.4 | 🔧 daily 2026-02-13 |
+| LogiCoal | LogiCoal | 2026-02-16 | multi-agent, coding | https://www.producthunt.com/products/logicoal | 🔧 daily 2026-02-16 |
+| GLM-5 | Z.AI | 2026-02-16 | agent, agentic, open-weight | https://www.producthunt.com/products/z-ai | ⚡ daily 2026-02-16 — 开源长周期智能体工程模型，754B参数规模 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
@@ -78,6 +80,8 @@
 |---|---:|---:|---|---|---|
 | LiteLLM | BerriAI | 2026-02-11 | gateway, sdk | https://github.com/BerriAI/litellm | ✍️ seed |
 | Vercel AI SDK | vercel | 2026-02-11 | sdk | https://github.com/vercel/ai | ✍️ seed |
+| ChromeDevTools/chrome-devtools-mcp | ChromeDevTools | 2026-02-16 | mcp, devtools | https://github.com/ChromeDevTools/chrome-devtools-mcp | 🔧 daily 2026-02-16 |
+| langchain-openrouter==0.0.1: feat(openrouter): add `langchain-openrouter` provider package | LangChain | 2026-02-16 | sdk, openrouter | https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.0.1 | 🔧 daily 2026-02-16 |
 
 ## 垂直应用（Writing / Coding / Data / Sales / Support）
 
@@ -86,6 +90,7 @@
 | Continue | continuedev | 2026-02-11 | coding | https://github.com/continuedev/continue | ✍️ seed |
 | Aider | Aider-AI | 2026-02-11 | coding | https://github.com/Aider-AI/aider | ✍️ seed |
 | Open Interpreter | OpenInterpreter | 2026-02-11 | local-exec | https://github.com/OpenInterpreter/open-interpreter | ✍️ seed |
+| Plus AI Presentation Agent | Plus AI | 2026-02-16 | agent, presentation | https://www.producthunt.com/products/plus-ai-presentation-agent | 🔧 daily 2026-02-16 |
 
 ## 基础设施（Deployment / Observability / Evals / Security）
 
@@ -99,6 +104,7 @@
 | CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models | Hugging Face | 2026-02-12 | evaluation, cybersecurity, framework | https://huggingface.co/blog/leaderboard-llamaguard | [evaluation] | ⚡ daily 2026-02-12 — CyberSecEval 2：LLM 网络安全风险与能力综合评估框架 |
 | Announcing Evaluation on the Hub | Hugging Face | 2026-02-12 | evaluation, hub, platform | https://huggingface.co/blog/eval-on-the-hub | [evaluation] | ⚡ daily 2026-02-12 — Hub 上的评估功能正式发布 |
 | Promptfoo 0.120.24 | promptfoo | 2026-02-13 | evaluation, mcp, filtering | https://github.com/promptfoo/promptfoo/releases/tag/0.120.24 | [evaluation] | 🔧 daily 2026-02-13 |
+| ZenMux | ZenMux | 2026-02-16 | gateway, llmops | https://www.producthunt.com/products/zenmux-2 | ⚡ daily 2026-02-16 — 企业级LLM网关，支持自动补偿机制 |
 
 ## 其他（Misc）
 
