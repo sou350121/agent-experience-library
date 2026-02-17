@@ -47,6 +47,8 @@
 | Dify 1.11.4 | langgenius | 2026-02-13 | security, deployment, nodejs | https://github.com/langgenius/dify/releases/tag/1.11.4 | 🔧 daily 2026-02-13 |
 | LogiCoal | LogiCoal | 2026-02-16 | multi-agent, coding | https://www.producthunt.com/products/logicoal | 🔧 daily 2026-02-16 |
 | GLM-5 | Z.AI | 2026-02-16 | agent, agentic, open-weight | https://www.producthunt.com/products/z-ai | ⚡ daily 2026-02-16 — 开源长周期智能体工程模型，754B参数规模 |
+| Microsoft Agent Framework adds AG-UI compatibility | Microsoft | 2026-02-17 | agent-framework, ag-ui, enterprise | https://www.copilotkit.ai/blog/microsoft-agent-framework-is-now-ag-ui-compatible | 🎯 agent-ui | ⚡ daily 2026-02-17 — 微软官方框架支持 AG-UI 协议，推动前端标准化 |
+| LangChainJS v1.2.0 发布 | LangChain | 2026-02-17 | langchain, structured-outputs, tools | https://github.com/langchain-ai/langchainjs/releases/tag/v1.2.0 | 🔧 daily 2026-02-17 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
@@ -61,6 +63,8 @@
 | Open WebUI v0.7.0 | open-webui | 2026-02-12 | function calling, tools, web-research | https://github.com/open-webui/open-webui/releases/tag/v0.7.0 | 🎯 agent-ui | ⚡ daily 2026-02-12 — 原生函数调用支持，可执行多步任务 |
 | Microsoft Agent Framework AG-UI Integration | Microsoft | 2026-02-12 | agent-ui, ag-ui, framework | https://techcommunity.microsoft.com/blog/azuredevcommunityblog/building-interactive-agent-uis-with-ag-ui-and-microsoft-agent-framework/4488249 | 🎯 agent-ui | ⚡ daily 2026-02-12 — 微软 Agent 框架集成 AG-UI 协议，实现标准化前端交互 |
 | Google ADK Visual Agent Builder | Google | 2026-02-12 | agent-ui, visual-builder, adk | https://google.github.io/adk-docs/visual-builder/ | 🎯 agent-ui | ⚡ daily 2026-02-12 — Google ADK 可视化 Agent 构建器，支持自然语言转架构 |
+| Open WebUI v0.8.1 发布 | open-webui | 2026-02-17 | chat-ui, self-hosted, ollama | https://github.com/open-webui/open-webui/releases/tag/v0.8.1 | 🎯 agent-ui | 🔧 daily 2026-02-17 |
+| Dify 1.14.0-rc1 引入 Agent x Skills | langgenius | 2026-02-17 | agent-ui, workflow, skills | https://github.com/langgenius/dify/releases/tag/1.14.0-rc1 | 🎯 agent-ui | ⚡ daily 2026-02-17 — Dify 新增沙盒化 Agent 技能编辑器，强化生产工作流 |
 
 ## RAG 工具链（Vector DB / Retrieval / Indexing）
 
@@ -105,6 +109,7 @@
 | Announcing Evaluation on the Hub | Hugging Face | 2026-02-12 | evaluation, hub, platform | https://huggingface.co/blog/eval-on-the-hub | [evaluation] | ⚡ daily 2026-02-12 — Hub 上的评估功能正式发布 |
 | Promptfoo 0.120.24 | promptfoo | 2026-02-13 | evaluation, mcp, filtering | https://github.com/promptfoo/promptfoo/releases/tag/0.120.24 | [evaluation] | 🔧 daily 2026-02-13 |
 | ZenMux | ZenMux | 2026-02-16 | gateway, llmops | https://www.producthunt.com/products/zenmux-2 | ⚡ daily 2026-02-16 — 企业级LLM网关，支持自动补偿机制 |
+| Langfuse 推出实验数据集版本控制 | Langfuse | 2026-02-17 | llmops, observability, evaluation | https://langfuse.com/docs/roadmap | [evaluation] | 🔧 daily 2026-02-17 |
 
 ## 其他（Misc）
 
