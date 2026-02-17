@@ -17,19 +17,19 @@
 
 ## 贡献落点（写到哪里）
 
-- **应用/工具索引（高频入口）**：[`stack/app_index.md`](./stack/app_index.md)
-- **技术分析（人写深度）**：`stack/tools/`、`stack/frameworks/`、`stack/methodology/`
-- **实作与 SOP**：`implementation/`
-- **场景复盘**：`use-cases/`
-- **产品/公司分析**：`products/`
-- **双周报告**：`reports/biweekly/`（通常由 Moltbot 生成）
+- **应用/工具索引（高频入口）**：[`cognition/app_index.md`](./cognition/app_index.md)
+- **技术分析（人写深度）**：`action/tools/`、`cognition/frameworks/`、`cognition/methodology/`
+- **实作与 SOP**：`action/`
+- **场景复盘**：`action/use-cases/`
+- **产品/公司分析**：`action/products/` (如果需要)
+- **双周报告**：`memory/reports/`（通常由 Moltbot 生成）
 
 ---
 
 ## 写入安全规则（必须遵守）
 
-- `stack/app_index.md`：**只能追加**，不得重排表格/改列/覆盖旧行；人工条目备注栏标 `✍️`。
-- `monitoring-system/daily-stats/` 与 `monitoring-system/change-log/`：默认不改（自动化生成）。
+- `cognition/app_index.md`：**只能追加**，不得重排表格/改列/覆盖旧行；人工条目备注栏标 `✍️`。
+- `action/monitoring/daily-stats/` 与 `action/monitoring/change-log/`：默认不改（自动化生成）。
 - 不要提交任何密钥/Token。
 
 ---
@@ -44,9 +44,8 @@
 
 ## 模板
 
-实作与分析模板位于 `implementation/templates/`：
+实作与分析模板位于 `action/templates/`：
 
-- `implementation/templates/workflow.mdx`
-- `implementation/templates/case-study.mdx`
-- `implementation/templates/prompt-card.mdx`
-
+- `action/templates/workflow.mdx`
+- `action/templates/case-study.mdx`
+- `action/templates/prompt-card.mdx`
