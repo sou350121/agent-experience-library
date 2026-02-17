@@ -9,8 +9,6 @@
 - **你**：消费者 + 深度生产者（查、读、写深度笔记）
 
 系统设计文档：[`ai_app_handbook_design.md`](./ai_app_handbook_design.md)
-改造执行指南：[`cursor_repo_restructure_prompt.md`](./cursor_repo_restructure_prompt.md)
-
 ---
 
 ## 快速开始（3 个入口）
@@ -46,14 +44,6 @@
 - **不要把 repo 变成信息垃圾场**：信号进 `blog/`，资产进 `stack/` / `implementation/`。
 
 更完整规范见：[`CONTRIBUTING.md`](./CONTRIBUTING.md)
-
----
-
-## 迁移状态（Legacy）
-
-本仓库历史上以 `docs/` 作为主要知识组织方式（Docusaurus 风格）。当前正在按新结构渐进迁移。
-
-- 旧内容仍可从 [`docs/`](./docs/) 访问（迁移中，不作为长期主入口）。
 
 ---
 

@@ -44,10 +44,9 @@
 
 ## 模板
 
-历史模板暂时仍放在 `docs/_templates/`（迁移中）：
+实作与分析模板位于 `implementation/templates/`：
 
-- `docs/_templates/workflow.mdx`
-- `docs/_templates/case-study.mdx`
-- `docs/_templates/prompt-card.mdx`
+- `implementation/templates/workflow.mdx`
+- `implementation/templates/case-study.mdx`
+- `implementation/templates/prompt-card.mdx`
 
-后续会迁移到 `implementation/` 下。
