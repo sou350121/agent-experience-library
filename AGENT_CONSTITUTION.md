@@ -21,7 +21,7 @@
 
 ## 第三章：文档工程 (DocOps) & AgentOps
 
-1.  **SSOT 维护**：确保 README, AGENT.md 和侧边栏索引始终同步。
+1.  **SSOT 维护**：确保 README, AGENTS.md 和侧边栏索引始终同步。
 2.  **目录自述 (Directory Map)**：每个 Docs 子目录必须拥有专属 README，提供推荐阅读顺序、Top Picks 以及该领域的「核心洞见」。
 3.  **学习路径 (Learning Tracks)**：Docs 总入口需提供基于不同目标（如：极速上手、深度架构、商业变现）的快速阅读路径。
 4.  **Kiro 交付范式 (Spec-Driven)**：

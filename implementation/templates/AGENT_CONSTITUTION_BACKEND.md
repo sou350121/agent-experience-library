@@ -8,7 +8,7 @@
 ## 🎯 第一章：执行三大支柱 (The Three Pillars)
 
 1.  **业务建模为王 (Modeling)**：优先确认 DB Schema 或 Domain Model。建模决定了系统的“骨架”，逻辑只是“肌肉”。
-2.  **技术栈镣铐 (Constraints)**：在指定轨道（AGENT.md）内行动。利用 MCP 检索官方文档，严禁脱离选型的自发发挥。
+2.  **技术栈镣铐 (Constraints)**：在指定轨道（AGENTS.md）内行动。利用 MCP 检索官方文档，严禁脱离选型的自发发挥。
 3.  **架构轨道 (Rails)**：明确代码的物理与逻辑归属（如：DDD 分层、MVC 模式）。禁止在架构外挥洒随机代码。
 
 ## 🛡️ 第二章：工程契约与底线 (Engineering Contracts)

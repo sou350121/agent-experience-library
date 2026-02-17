@@ -1,4 +1,4 @@
-# AGENT.md（AI 应用开发监控系统：给 Claude Code / Codex / Cursor 等编码代理）
+# AGENTS.md（AI 应用开发监控系统：给 Claude Code / Codex / Cursor 等编码代理）
 
 > **最高准则：** 在开始任何工作前，务必阅读并严格遵守 [AGENT_CONSTITUTION.md](./AGENT_CONSTITUTION.md)。
 >
