@@ -22,7 +22,7 @@
 
 ## 2) 目录拓扑（Holograph 架构）
 
-本仓库遵循 [01-system-holograph-for-ai-zh.md](../01-system-holograph-for-ai-zh.md) 定义的三位一体架构。
+本仓库遵循 [01-system-holograph-for-ai-zh.md](./01-system-holograph-for-ai-zh.md) 定义的三位一体架构。
 
 - **`cognition/` (认知层)**：
   - 存放：技术栈、框架、方法论、架构模式、应用索引 (`app_index.md`)

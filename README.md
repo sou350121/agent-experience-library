@@ -24,7 +24,7 @@
 
 ## 目录导航（Holograph 架构）
 
-本仓库遵循 [01-system-holograph-for-ai-zh.md](../01-system-holograph-for-ai-zh.md) 定义的三位一体架构：
+本仓库遵循 [01-system-holograph-for-ai-zh.md](./01-system-holograph-for-ai-zh.md) 定义的三位一体架构：
 
 | 目录 | 对应层级 | 内容说明 |
 |---|---|---|
