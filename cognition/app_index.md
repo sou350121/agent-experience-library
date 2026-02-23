@@ -61,8 +61,6 @@
 | IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST | IBM Research | 2026-02-23 | evaluation, benchmark, enterprise | https://huggingface.co/blog/ibm-research/itbenchandmast |  | ⚡ daily 2026-02-23 |
 | OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments | Hugging Face | 2026-02-23 | evaluation, tool-use, real-world | https://huggingface.co/blog/openenv-turing |  | 🔧 daily 2026-02-23 |
 | AprielGuard: A Guardrail for Safety and Adversarial Robustness in Modern LLM Systems | ServiceNow AI | 2026-02-23 | guardrail, safety, security | https://huggingface.co/blog/ServiceNow-AI/aprielguard |  | 🔧 daily 2026-02-23 |
-| Welcome Gemma 3: Google's all new multimodal, multilingual, long context open LLM | Google | 2026-02-23 | multimodal, open-model, long-context | https://huggingface.co/blog/gemma3 |  | ⚡ daily 2026-02-23 |
-| Welcome Llama 4 Maverick & Scout on Hugging Face | Meta | 2026-02-23 | open-model, llama, foundation | https://huggingface.co/blog/llama4-release |  | ⚡ daily 2026-02-23 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
