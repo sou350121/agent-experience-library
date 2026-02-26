@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-02-26T01:34:25Z"
+generated_at: "2026-02-26T01:34:38Z"
 source_url: "https://boristane.com/blog/how-i-use-claude-code/"
 signal_type: "blog_post"
 ---
