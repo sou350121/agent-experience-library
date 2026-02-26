@@ -1,28 +1,30 @@
-# AI 应用双周反思 | 2026-02-26
+🤔 *AI 应用双周反思* | 2026-02-26
 
-> 🤔 基于 AI App Biweekly Report 生成 | 不含答案，请独立思考
+_读完没立场 = 这两周在消费而不在研究_
 
-## 问题
+━━━ 趋势与判断 ━━━
 
-1. **[趋势]** 本期 Microsoft 和 Google 共同推动 AG-UI 协议，LangGraph/CrewAI/Mastra 已宣布采用。这个方向是在收敛还是在碎片化？如果 Q1 末非标准方案加速淘汰，你现在用的 UI 对接方案还能活多久？
+1️⃣ *AG-UI* 协议被 *Microsoft*、*Google* 推动，*LangGraph*/*CrewAI*/*Mastra* 集体采用。这个方向是在收敛还是在碎片化？如果现在要选一个 Agent-UI 协议押注，你选 *AG-UI* 还是继续观望？
 
-2. **[资源]** 如果只能深入学一个本期出现的框架：AutoGen v0.4（异步通信 + 可观测性）、Microsoft Agent Framework（AG-UI 原生）、还是 LangChain Agent Builder（生产平台化）？你选哪个？为什么？
+2️⃣ *AutoGen v0.4* 全面重构支持异步通信，*LangChain* 推出 *Agent Builder* 正式版。基础设施都在转向生产平台——这是成熟信号还是内卷信号？你的下一个生产项目会选哪个？
 
-3. **[技术追问]** Microsoft Agent Framework 实现了 AG-UI 协议兼容，支持实时流式传输 agent 消息和进度。AG-UI 协议的核心设计原则是什么？它如何解决 Agent 与 UI 之间的状态同步问题？
-   > 💡 如果答不上来，建议阅读：https://github.com/microsoft/agent-framework 和 https://www.copilotkit.ai/blog/microsoft-agent-framework-is-now-ag-ui-compatible
+3️⃣ *Sapiom* 拿 $15M 做 Agent 支付、*GitGuardian* 拿 $50M 做凭证安全。资本在押注 Agent 自主性的瓶颈。你认为当前 Agent 落地的最大阻碍是技术还是安全/合规？
 
-4. **[真伪]** 有人说"Agent 自主支付和凭证安全只是 niche 需求"。但本期 Sapiom 融了$15M、GitGuardian 融了$50M。基于这个资本信号，这个判断成立吗？
+4️⃣ *Open WebUI* 两周内连发 v0.8.1 和 v0.8.3，v0.8.1 带破坏性数据库变更。这种迭代节奏对生产部署意味着什么？你会在生产环境用 *Open WebUI* 还是等更稳定的方案？
 
-5. **[趋势]** LangChain 创始人转向"长视野 Deep Agents"，同时 AutoGen v0.4 全面重构支持异步通信。这是否意味着简单 Agent 模式（单次调用、无状态）已经被行业共识为局限性方案？
+5️⃣ *LlamaIndex* 向量存储 v1.0.0 将默认引擎从 *nmslib* 切到 *faiss*。*nmslib* 已废弃但很多人还在用。你的 RAG 系统用的什么向量索引？有没有迁移计划？
 
-6. **[资源分配]** Open WebUI 连续发布 v0.8.1 和 v0.8.3，其中 v0.8.1 有数据库架构变更的 breaking change。如果你在生产环境用它，升级策略是什么？等稳定版还是紧跟最新？
+━━━ 技术追问 ━━━
 
-7. **[技术追问]** LlamaIndex 的 OpenSearch 向量存储 v1.0.0 将默认引擎从 nmslib 切换为 faiss。nmslib 和 faiss 的核心差异是什么？为什么团队要做这个切换？
-   > 💡 如果答不上来，建议阅读：https://github.com/run-llama/llama_index 和相关向量索引论文
+🔬 *AG-UI* 协议的核心通信机制是什么？它如何解决 Agent 与 UI 之间的实时流式传输问题？
+💡 答不上来建议读：https://github.com/microsoft/agent-framework 和 https://www.copilotkit.ai/blog/microsoft-agent-framework-is-now-ag-ui-compatible
 
-8. **[真伪]** "MCP 协议太贵，CLI 是更经济的替代方案"（参考本期 deep dive: Making MCP cheaper via CLI）。这个判断在你的使用场景下成立吗？什么情况下 MCP 的成本是合理的？
+🔬 *AutoGen v0.4* 的重构中"异步通信"和"可扩展架构"具体指什么？跟 v0.2/v0.3 的架构差异在哪里？
+💡 答不上来建议读：https://devblogs.microsoft.com/autogen/autogen-reimagined-launching-autogen-0-4/
 
-9. **[趋势]** 本期社交信号 38 条、日报条目 6 条、Deep Dive 文章 12 篇。信息密度在上升还是下降？你的信息过滤策略需要调整吗？
+🔬 有人提出用 *CLI* 替代 *MCP* 来降低成本。*MCP* 的开销主要在哪里？*CLI* 方案真的能省吗？
+💡 答不上来建议读：https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html
 
 ---
-> 以上问题基于本期 AI 应用监控数据自动生成，旨在强迫你形成判断。
+
+_以上问题基于本期 AI 应用监控数据自动生成，旨在强迫你形成判断。_
