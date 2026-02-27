@@ -1,110 +1,79 @@
-# Agent Playbook
+# Agent Playbook：AI 应用生态情报库
 
-[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-![Auto-updated](https://img.shields.io/badge/内容-每日自动写入-blue)
-
-**AI 应用生态的自动化情报站。** 每天海量 AI 工具发布、架构变化、社区争议——这个仓库用自动 pipeline 把信号提纯成可查询、可推理、可累积的知识资产。
-
-> 38 框架深度解析 · 2000+ 工具条目 · 每日自动写入 · 双周有观点的趋势推理
+> 每日自动追踪 AI 工具发布 · 架构评审 · 社区热议 · 趋势预测
 
 ---
 
-## 📬 今天更新了什么？（每日读者入口）
+## 这里解决什么问题
 
-> 快速入口：[`daily/`](./daily/)（所有每日更新汇总）
-
-
-| 类型 | 直达链接 | 更新节奏 |
-|---|---|---|
-| 🛠️ AI 工具 / 框架条目 | [`cognition/app_index.md`](./cognition/app_index.md) | 每日 3–5 条自动写入 |
-| 📰 每日精选（编辑策展） | [`memory/blog/archives/ai-daily-pick/`](./memory/blog/archives/ai-daily-pick/) | 每日 |
-| 🔥 社区热议 / 争议 / 病毒传播 | [`memory/blog/archives/`](./memory/blog/archives/) 最新日期目录 | 每日 |
-| 💡 工作流灵感（"I built X"） | [`memory/blog/archives/ai-workflow-inspiration/`](./memory/blog/archives/ai-workflow-inspiration/) | Mon/Wed/Fri/Sun |
-| 🔬 架构深度解析（Deep Dive） | [`cognition/frameworks/`](./cognition/frameworks/) 最新 `.mdx` | 每周 3 次 |
-| 📊 双周趋势推理 | [`reports/biweekly/README.md`](./reports/biweekly/README.md) | 每两周 |
+- **每天 AI 发布太多，看不完** → 自动筛选，日报只留值得关注的 5-10 条
+- **工具好不好用，文档不说实话** → 深度评审含生产踩坑 + 实际代码，不是官方介绍
+- **Twitter 热议转瞬即逝** → 每日归档社区争议与 viral 案例，可回溯查阅
+- **AI 趋势说不清，没有验证** → 双周预测附历史验证，✅/❌ 追踪正确率
 
 ---
 
-## 和其他 AI 资讯合集的区别
+## 内容结构
 
-| | 普通 AI 资讯合集 | Agent Playbook |
-|---|---|---|
-| 内容来源 | 人工搜集 / 定期更新 | 自动 pipeline，每日写入 |
-| 架构分析深度 | 摘要介绍 | 强制 ASCII 图 + 生产崩溃陷阱 + 生存代码 |
-| 工具发布 vs 争议 | 混在一起 | 三条流水线，定位不重叠 |
-| 趋势判断 | 描述现象 | 双周给可验证预测，下期回顾 ✅/❌ |
-| 是否"活的" | 静态文档 | 每天都有新提交 |
-
----
-
-## 按需查找
-
-| 目标 | 入口 | 说明 |
-|---|---|---|
-| 查某个 AI 工具 | [`cognition/app_index.md`](./cognition/app_index.md) | 工具 + 标签 + 日期 + 链接，每日更新 |
-| 理解某框架架构 | [`cognition/frameworks/`](./cognition/frameworks/) | 架构图 + 生产陷阱 + 代码 |
-| 生态全景图 | [`cognition/technology_landscape.md`](./cognition/technology_landscape.md) | Agent / 模型 / 基础设施分层认知地图 |
-| 找落地案例 | [`action/use-cases/`](./action/use-cases/) | 真实场景 + 实施路径 + 避坑 |
-| Prompt / 脚手架 | [`action/prompts/`](./action/prompts/) · [`action/scaffolds/`](./action/scaffolds/) | 可复用 Prompt + 项目脚手架 |
-| 变更记录 | [`CHANGELOG.md`](./CHANGELOG.md) | Pipeline 改进 + 内容里程碑 |
+1. **工具日报** → 每日 3-5 条新工具/框架，来自 RSS 自动采集 + 编辑过滤
+2. **精选快报** → 每日编辑精选，🔴重大 / 🟡值得关注 / 🔵背景参考，跨域视角
+3. **架构深评** → 每周 3 篇，含 ASCII 架构图、生产崩溃场景、AI 生成代码盲点
+4. **社交情报** → 每日捕捉大 V 观点 / 社区争议 / 病毒案例，不是新闻稿
+5. **工作流灵感** → 周四次，真实"我用 AI 自动化了 X"案例，附前后对比
+6. **双周推理报告** → 趋势分析 + 可验证预测，下期报告回顾正确率
 
 ---
 
-## 内容是怎么自动生成的
+## 今日内容入口
 
-```
-RSS 收集
-│
-├── 日报            → 每日 5–10 条工具更新 → cognition/app_index.md
-├── 每日精选        → web 搜索 + 🔴/🟡/🔵 编辑分级 → archives/ai-daily-pick/
-├── 社交情报        → 观点 / 争议 / 病毒传播 → archives/
-├── Deep Dive       → 资深工程师架构评审 → cognition/frameworks/
-├── 工作流灵感      → "I built/automated" 社区案例 → archives/ai-workflow-inspiration/
-└── 双周推理        → 技术收敛判断 + 预测 → reports/biweekly/
-```
-
-Pipeline 脚本完整参考：[`action/monitoring/SCRIPTS.md`](./action/monitoring/SCRIPTS.md)
+| 内容 | 链接 | 更新频率 |
+|------|------|---------|
+| 📋 工具日报 | [app_index.md](cognition/app_index.md) | 每日 |
+| 🔍 架构深评 | [frameworks/](cognition/frameworks/) | 周三次 |
+| 📰 精选 + 社交 + 灵感归档 | [daily/](daily/) | 每日 |
+| 📊 双周报告 | [reports/biweekly/](reports/biweekly/) | 两周 |
+| 🛠️ 代码模板 + Prompt | [action/](action/) | 持续更新 |
 
 ---
 
-## 目录结构
+## 系统架构
 
-```
-Agent-Playbook/
-├── cognition/              # 认知层：理解与分析
-│   ├── app_index.md        # ← AI 工具索引（每日自动写入）
-│   ├── technology_landscape.md
-│   ├── frameworks/         # ← 框架深度解析（38 篇）
-│   └── architecture/
-├── action/                 # 执行层：落地与实作
-│   ├── use-cases/
-│   ├── scaffolds/
-│   ├── prompts/
-│   ├── templates/
-│   ├── tools/
-│   └── monitoring/         # pipeline 配置 + SCRIPTS.md
-├── memory/
-│   └── blog/archives/
-│       ├── ai-daily-pick/           # ← 每日精选
-│       ├── ai-workflow-inspiration/ # ← 工作流灵感
-│       └── 2025/ 2026/              # ← 日报 / 社交情报归档
-├── reports/
-│   ├── biweekly/           # ← 双周推理报告 + reflection
-│   └── cross-domain/
-└── static/
-```
+\`\`\`
+RSS 采集 ──► 日报生成 ──► GitHub app_index.md
+              │
+              ▼
+          LLM 评级
+              │
+         ┌────┴────┐
+         ▼         ▼
+      精选快报   社交情报
+         │         │
+         └────┬────┘
+              ▼
+          Memory 归档
+              │
+              ▼
+         双周推理报告
+         （含预测回顾）
+\`\`\`
 
 ---
 
-## 贡献
+## 和静态 AI 新闻网站的区别
 
-- 新增工具：在 [`cognition/app_index.md`](./cognition/app_index.md) 对应分类追加，备注栏标 `✍️`
-- 深度分析：放 `cognition/`（分析）或 `action/`（实作）
-- 原始信号：放 `memory/blog/`
+| 维度 | 静态聚合 / 新闻站 | Agent Playbook |
+|------|-----------------|----------------|
+| 更新方式 | 人工或半人工 | 全自动 pipeline，每日 commit |
+| 架构评审 | 无 | 38 篇，含生产踩坑 + 代码 |
+| 社区信号 | 转载为主 | 原生捕捉争议 / 观点 / viral |
+| 趋势预测 | 无追踪 | 双周预测 + ✅/❌ 历史验证 |
+| 可搜索性 | 依赖外部搜索 | Markdown 结构化，可 grep |
 
-完整规范见 [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+---
 
-## 许可协议
+## 内容许可
 
-内容采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh)，代码采用 MIT。
+文字内容：[CC BY 4.0](LICENSE)　代码示例：MIT
+
+---
+*由 [照见 Pulsar](https://github.com/sou350121/Pulsar-KenVersion) 系统自动生成与归档*
