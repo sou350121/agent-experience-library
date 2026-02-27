@@ -55,7 +55,7 @@ RSS 自动采集后，经过 LLM 编辑评级（🔴重大 / 🟡值得关注 / 
 |------|---------|-------------------|
 | 📋 **工具日报** | [cognition/app_index.md](https://github.com/sou350121/Agent-Playbook/blob/main/cognition/app_index.md) | 每日 07:00 |
 | ⭐ **编辑精选** | [ai-daily-pick/ →](https://github.com/sou350121/Agent-Playbook/tree/main/memory/blog/archives/ai-daily-pick) | 每日 07:15 |
-| 🔥 **社交情报** | 仅 Telegram 频道 | 每日 07:45 |
+| 🔥 **社交情报** | [ai-social-intel/ →](https://github.com/sou350121/Agent-Playbook/tree/main/memory/blog/archives/ai-social-intel) | 每日 07:45 |
 | 🔍 **架构深评**（38 篇） | [cognition/frameworks/](https://github.com/sou350121/Agent-Playbook/tree/main/cognition/frameworks) | 周二 / 四 / 六 15:30 |
 | 💡 **工作流灵感** | [ai-workflow-inspiration/ →](https://github.com/sou350121/Agent-Playbook/tree/main/memory/blog/archives/ai-workflow-inspiration) | 周一 / 三 / 五 / 日 15:45 |
 | 📊 **双周推理报告** | [reports/biweekly/](https://github.com/sou350121/Agent-Playbook/tree/main/reports/biweekly) | 每两周 |
