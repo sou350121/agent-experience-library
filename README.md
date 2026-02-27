@@ -64,7 +64,8 @@ Agent-Playbook/
 │   ├── scaffolds/          # 项目脚手架
 │   ├── prompts/            # Prompt 库
 │   ├── templates/          # SOP 模板
-│   └── tools/              # 工具使用指南
+│   ├── tools/              # 工具使用指南
+│   └── monitoring/         # 监控配置 + SCRIPTS.md pipeline 参考
 ├── memory/                 # 持久层：信号积累
 │   └── blog/
 │       └── archives/
@@ -106,7 +107,7 @@ RSS 收集          → ai-app-rss-collect.py
                      技术收敛判断 + 预测 → reports/biweekly/
 ```
 
-> Pipeline 脚本参考：见 [VLA-Handbook scripts/SCRIPTS.md](https://github.com/sou350121/VLA-Handbook/blob/main/scripts/SCRIPTS.md)（两套 pipeline 共享同一台 Moltbot 网关）
+> Pipeline 脚本参考：见 [`action/monitoring/SCRIPTS.md`](./action/monitoring/SCRIPTS.md)（完整命名规则与 DAG 拓扑；两套 pipeline 共享同一台 Moltbot 网关）
 
 ---
 
@@ -135,6 +136,7 @@ RSS 收集          → ai-app-rss-collect.py
 - **社区热议信号**：看 [`memory/blog/archives/`](./memory/blog/archives/) 最新日期目录
 - **深度架构解析**：看 [`cognition/frameworks/`](./cognition/frameworks/) 最新 `.mdx` 文件
 - **趋势与预测**：看 [`reports/biweekly/README.md`](./reports/biweekly/README.md)
+- **版本变更**：看 [`CHANGELOG.md`](./CHANGELOG.md)
 
 ---
 
