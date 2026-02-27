@@ -1,45 +1,68 @@
-# 今日更新
+# 今日内容 / Daily Hub
 
-> 本目录是每日内容的快速入口，实际文件由自动 pipeline 写入各对应目录。
-
-## 今天有什么？
-
-### 🛠️ AI 工具 / 框架条目
-每日 3–5 条自动写入，⚡ 战略级 / 🔧 可操作标注
-
-→ [`cognition/app_index.md`](../cognition/app_index.md)
+> 最新推送：**2026-02-27**　｜　自動更新，每日早間 07:00–08:00（北京時間）
 
 ---
 
-### 📰 每日精选（编辑策展）
-AI 全域《经济学人》级别编辑精选，🔴 重大突破 / 🟡 值得关注 / 🔵 长期趋势
+## ⭐ AI 編輯精選（每日 07:15）
 
-→ [`memory/blog/archives/ai-daily-pick/`](../memory/blog/archives/ai-daily-pick/)
+最新 5 期：
 
----
+| 日期 | 直達 |
+|:-----|:-----|
+| 2026-02-27 | [查看](memory/blog/archives/ai-daily-pick/2026-02-27.md) | ← 最新
+| 2026-02-26 | [查看](memory/blog/archives/ai-daily-pick/2026-02-26.md) |
+| 2026-02-25 | [查看](memory/blog/archives/ai-daily-pick/2026-02-25.md) |
+| 2026-02-24 | [查看](memory/blog/archives/ai-daily-pick/2026-02-24.md) |
+| 2026-02-23 | [查看](memory/blog/archives/ai-daily-pick/2026-02-23.md) |
 
-### 🔥 社区热议 / 争议 / 观点
-关键人物观点、社区争论、病毒传播案例
-
-→ [`memory/blog/archives/`](../memory/blog/archives/)（按日期目录）
-
----
-
-### 💡 工作流灵感（Mon/Wed/Fri/Sun）
-"I built / I automated" 社区真实案例，过滤纯工具发布
-
-→ [`memory/blog/archives/ai-workflow-inspiration/`](../memory/blog/archives/ai-workflow-inspiration/)
+→ **[全部精選歸檔](../memory/blog/archives/ai-daily-pick/)**
 
 ---
 
-### 🔬 架构深度解析（每周 3 次）
-资深工程师诚实架构评审：ASCII 图 + 生产陷阱 + 生存代码
+## 💡 工作流靈感（週一/三/五/日 15:45）
 
-→ [`cognition/frameworks/`](../cognition/frameworks/)（按最新 `.mdx` 文件）
+最新 5 期：
+
+| 日期 | 直達 |
+|:-----|:-----|
+| 2026-02-20 | [查看](memory/blog/archives/ai-workflow-inspiration/2026-02-20.md) |
+| 2026-02-18 | [查看](memory/blog/archives/ai-workflow-inspiration/2026-02-18.md) |
+| 2026-02-16 | [查看](memory/blog/archives/ai-workflow-inspiration/2026-02-16.md) |
+| 2026-02-13 | [查看](memory/blog/archives/ai-workflow-inspiration/2026-02-13.md) |
+
+→ **[全部工作流歸檔](../memory/blog/archives/ai-workflow-inspiration/)**
 
 ---
 
-### 📊 双周趋势推理（每两周）
-技术收敛/碎片化判断 + 上期预测回顾（✅/❌/⏳）
+## 🔍 架構深評（週二/四/六 15:30）
 
-→ [`reports/biweekly/README.md`](../reports/biweekly/README.md)
+最新 5 篇：
+
+| 文章 |
+|:-----|
+| [open webui v081](memory/blog/archives/deep-dive/open_webui_v081_deep_dive.md) |
+| [open webui team v083](memory/blog/archives/deep-dive/open_webui_team_v083_deep_dive.md) |
+| [microsoft agent frameworkag ui](memory/blog/archives/deep-dive/microsoft_agent_frameworkag_ui_deep_dive.md) |
+| [microsoft agent framework team microsoft agent framework ag](memory/blog/archives/deep-dive/microsoft_agent_framework_team_microsoft_agent_framework_ag_deep_dive.md) |
+| [microsoft agent framework rc](memory/blog/archives/deep-dive/microsoft_agent_framework_rc_deep_dive.md) |
+
+→ **[全部深評（38 篇）](../cognition/frameworks/)**
+
+---
+
+## 🔥 社交情報
+
+> 僅推送至 Telegram，無 GitHub 歸檔。
+
+---
+
+## 📋 工具日報（每日 07:00）
+
+→ **[cognition/app_index.md](../cognition/app_index.md)**（append-only，最新在頂部）
+
+---
+
+## 📊 雙週推理報告
+
+→ **[reports/biweekly/](../reports/biweekly/)**
