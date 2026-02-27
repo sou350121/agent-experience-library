@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" width="100%" alt="Agent Playbook"></p>
+
 # Agent Playbook：AI 应用生态智能情报站
 
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
