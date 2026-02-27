@@ -13,6 +13,18 @@
 
 ---
 
+## 今日内容入口
+
+| 内容 | 直达链接 | 更新频率 |
+|------|---------|---------|
+| 📋 工具日报（2000+ 条索引）| [app_index.md](cognition/app_index.md) | 每日 |
+| 🔍 架构深评（38 篇，含踩坑）| [frameworks/](cognition/frameworks/) | 周三次 |
+| 📰 精选 · 社交 · 灵感归档 | [daily/](daily/) | 每日 |
+| 📊 双周推理报告 | [reports/biweekly/](reports/biweekly/) | 两周 |
+| 🛠️ 代码模板 · Prompt | [action/](action/) | 持续 |
+
+---
+
 ## 智能分层架构
 
 Agent Playbook 不是一个 RSS 阅读器——它是一个多层认知过滤系统：
@@ -74,18 +86,6 @@ arXiv · GitHub · RSS
         双周推理报告
      （趋势分析 + 可验证预测）
 \`\`\`
-
----
-
-## 今日内容入口
-
-| 内容 | 直达链接 | 更新频率 |
-|------|---------|---------|
-| 📋 工具日报（2000+ 条索引）| [app_index.md](cognition/app_index.md) | 每日 |
-| 🔍 架构深评（38 篇，含踩坑）| [frameworks/](cognition/frameworks/) | 周三次 |
-| 📰 精选 · 社交 · 灵感归档 | [daily/](daily/) | 每日 |
-| 📊 双周推理报告 | [reports/biweekly/](reports/biweekly/) | 两周 |
-| 🛠️ 代码模板 · Prompt | [action/](action/) | 持续 |
 
 ---
 
