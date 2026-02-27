@@ -1,7 +1,14 @@
-# Biweekly Reports
+# Biweekly Frontier Reports
 
-| 日期 | 报告 | 摘要 |
-|------|------|------|
-| 2026-02-26 | [本期報告](./2026-02-26.md) | AG-UI 标准化：Microsoft Framework RC + Google A2UI，LangGraph/CrewAI 跟进 |
-| 2026-02-18 | [Biweekly Report](./2026-02-18.md) | AG-UI 协议成 Agent-UI 标准化赢家... |
-| 2026-02-18 | [Reflection](./reflection_2026-02-18.md) | 🤔 基于 AI App Biweekly Report 生成 | 不含答案，请独立思考 |
+本目录发布 **每两周一次** 的 AI 应用监控推理报告，覆盖 Agent 框架、工具生态、架构趋势与社区争议。
+
+## Index
+
+| 期数 | 覆盖周期 | 链接 | 重点 |
+|---|---|---|---|
+| 2026-02-26 | 2026-02-12 → 2026-02-26 | [`2026-02-26.md`](./2026-02-26.md) · [`reflection`](./reflection_2026-02-26.md) | AG-UI 标准化 + 多智能体生产化；MCP 生态收敛 |
+| 2026-02-18 | 2026-02-04 → 2026-02-18 | [`2026-02-18.md`](./2026-02-18.md) · [`reflection`](./reflection_2026-02-18.md) | Agent 执行层碎片化；分层推理路由省 66% 成本 |
+
+---
+
+> 预测回顾（✅已验证 / ❌落空 / ⏳待观察）见各期 `reflection_*.md`。
