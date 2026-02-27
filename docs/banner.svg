@@ -1,0 +1,46 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgap" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0f0a1e"/>
+    </linearGradient>
+    <filter id="pglow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bgap)"/>
+  <rect x="0" y="0" width="4" height="300" fill="#7C3AED"/>
+  <!-- Funnel: many lines in → filter node → few lines out -->
+  <line x1="20" y1="82"  x2="138" y2="144" stroke="#4C1D95" stroke-width="1.5" opacity="0.6"/>
+  <line x1="20" y1="104" x2="138" y2="149" stroke="#4C1D95" stroke-width="1.5" opacity="0.65"/>
+  <line x1="20" y1="128" x2="138" y2="153" stroke="#4C1D95" stroke-width="1.5" opacity="0.7"/>
+  <line x1="20" y1="152" x2="138" y2="156" stroke="#5B21B6" stroke-width="1.5" opacity="0.75"/>
+  <line x1="20" y1="176" x2="138" y2="160" stroke="#4C1D95" stroke-width="1.5" opacity="0.7"/>
+  <line x1="20" y1="200" x2="138" y2="164" stroke="#4C1D95" stroke-width="1.5" opacity="0.65"/>
+  <line x1="20" y1="222" x2="138" y2="168" stroke="#4C1D95" stroke-width="1.5" opacity="0.6"/>
+  <!-- Filter node -->
+  <circle cx="158" cy="156" r="22" fill="#1a0a30" stroke="#7C3AED" stroke-width="2" filter="url(#pglow)"/>
+  <text x="158" y="162" text-anchor="middle" fill="#A78BFA" font-size="16" font-family="monospace">▽</text>
+  <!-- Output lines (fewer, brighter) -->
+  <line x1="180" y1="149" x2="260" y2="136" stroke="#7C3AED" stroke-width="2.5" opacity="0.85"/>
+  <line x1="180" y1="156" x2="260" y2="156" stroke="#7C3AED" stroke-width="2.5" opacity="0.9"/>
+  <line x1="180" y1="163" x2="260" y2="178" stroke="#7C3AED" stroke-width="2.5" opacity="0.85"/>
+  <!-- Arrow right -->
+  <line x1="265" y1="156" x2="310" y2="156" stroke="#7C3AED" stroke-width="1.5" opacity="0.4" stroke-dasharray="5,4"/>
+  <polygon points="310,151 320,156 310,161" fill="#7C3AED" opacity="0.5"/>
+  <!-- Title -->
+  <text x="645" y="118" text-anchor="middle" fill="#FFFFFF" font-size="58" font-weight="700" font-family="system-ui,-apple-system,sans-serif">Agent Playbook</text>
+  <!-- Subtitle -->
+  <text x="645" y="163" text-anchor="middle" fill="#9CA3AF" font-size="19" font-family="system-ui,-apple-system,sans-serif">AI 应用生态智能情报站</text>
+  <!-- Tags -->
+  <rect x="430" y="200" width="145" height="28" rx="14" fill="#1a0a30" stroke="#7C3AED" stroke-width="1" opacity="0.9"/>
+  <text x="502" y="219" text-anchor="middle" fill="#C4B5FD" font-size="12" font-family="system-ui,sans-serif">每日自动过滤</text>
+  <rect x="590" y="200" width="120" height="28" rx="14" fill="#1a0a30" stroke="#7C3AED" stroke-width="1" opacity="0.9"/>
+  <text x="650" y="219" text-anchor="middle" fill="#C4B5FD" font-size="12" font-family="system-ui,sans-serif">架构深评</text>
+  <rect x="725" y="200" width="145" height="28" rx="14" fill="#1a0a30" stroke="#7C3AED" stroke-width="1" opacity="0.9"/>
+  <text x="797" y="219" text-anchor="middle" fill="#C4B5FD" font-size="12" font-family="system-ui,sans-serif">双周预测验证</text>
+  <!-- Bottom bar -->
+  <rect x="0" y="278" width="1200" height="2" fill="#7C3AED" opacity="0.25"/>
+  <text x="645" y="294" text-anchor="middle" fill="#4B5563" font-size="11" font-family="monospace">github.com/sou350121/Agent-Playbook · CC BY 4.0 · Powered by 照见 Pulsar</text>
+</svg>
