@@ -5,11 +5,14 @@
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 ![Auto-updated](https://img.shields.io/badge/内容-每日自动更新-blue)
 
-> **AI Agent 时代，真正重要的不再是算法知识点——而是架构崩溃路径、AI 代码盲点、并发安全设计。**  
-> 就像现在开车不需要会开手动波，你不需要懂 Transformer 的每一层——但你得知道 Agent 框架在什么情况下会翻车。
+**每天醒来，又有 50 个新工具、100 篇解析、N 篇「AI 要革你命」的文章。**  
+大多数三个月后没人记得。真正重要的信号，淹没在制造焦虑的内容里。
 
-每天醒来，AI 生态又变了。工具发布、架构争论、框架翻车——信息量大到没有人能全看。  
-Agent Playbook 做一件事：**把这个新时代工程师真正需要知道的留下来，把噪音过滤掉。**
+> AI Agent 时代，不是不需要学——而是**学错了方向代价更大**。  
+> 你不需要懂 Transformer 的每一层，但你得知道 Agent 框架在什么情况下会翻车。  
+> 就像开车不需要会开手动波，架构崩溃路径比算法知识点更值得花时间。
+
+Agent Playbook 做一件事：**自动过滤焦虑，留下工程师真正用得上的。**
 
 由 [照见 Pulsar](https://github.com/sou350121/Pulsar-KenVersion) 系统驱动，每日自动更新。
 
