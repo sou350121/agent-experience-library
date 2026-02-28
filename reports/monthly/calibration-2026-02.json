@@ -1,0 +1,217 @@
+{
+  "ok": true,
+  "month": "2026-02",
+  "generated_at": "2026-02-28",
+  "records_used": 10,
+  "assumptions": [
+    {
+      "id": "T-003",
+      "domain": "system",
+      "hypothesis_short": "Daily reports should remain freshness-first: prioritize last 72h, allow up to 7d",
+      "confidence_before": null,
+      "days_scanned": 5,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": null,
+      "delta": 0.0
+    },
+    {
+      "id": "T-004",
+      "domain": "system",
+      "hypothesis_short": "Key claims in daily outputs should be grounded in primary sources (official blog",
+      "confidence_before": null,
+      "days_scanned": 5,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": null,
+      "delta": 0.0
+    },
+    {
+      "id": "V-001",
+      "domain": "vla",
+      "hypothesis_short": "Diffusion-class action generation (Diffusion Policy, flow matching / pi0, ACT-st",
+      "confidence_before": 0.78,
+      "days_scanned": 3,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.78,
+      "delta": 0.0
+    },
+    {
+      "id": "V-002",
+      "domain": "vla",
+      "hypothesis_short": "Tactile/force sensing will transition from research accessory to necessary modal",
+      "confidence_before": 0.63,
+      "days_scanned": 3,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.63,
+      "delta": 0.0
+    },
+    {
+      "id": "V-003",
+      "domain": "vla",
+      "hypothesis_short": "GPU-parallel simulation (Isaac Lab / Genesis) + domain randomization remains the",
+      "confidence_before": 0.72,
+      "days_scanned": 3,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.72,
+      "delta": 0.0
+    },
+    {
+      "id": "V-004",
+      "domain": "vla",
+      "hypothesis_short": "Humanoid robots (Unitree G1/H1, Figure 02, 1X NEO, Agility Digit, Fourier GR-1) ",
+      "confidence_before": 0.52,
+      "days_scanned": 3,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.52,
+      "delta": 0.0
+    },
+    {
+      "id": "V-005",
+      "domain": "vla",
+      "hypothesis_short": "Online RL fine-tuning of VLA policies (DPPO, GRPO-style, or equivalent) will bec",
+      "confidence_before": 0.68,
+      "days_scanned": 3,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.68,
+      "delta": 0.0
+    },
+    {
+      "id": "V-006",
+      "domain": "vla",
+      "hypothesis_short": "World models (UniSim, GR-1, SuSIE, DreamerV3-based) will graduate from auxiliary",
+      "confidence_before": 0.58,
+      "days_scanned": 3,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.58,
+      "delta": 0.0
+    },
+    {
+      "id": "V-007",
+      "domain": "vla",
+      "hypothesis_short": "Human teleoperation (ALOHA 2, UMI, Mobile ALOHA, AgiBot) will remain the irrepla",
+      "confidence_before": 0.74,
+      "days_scanned": 3,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.74,
+      "delta": 0.0
+    },
+    {
+      "id": "V-008",
+      "domain": "vla",
+      "hypothesis_short": "Open-source VLA weights (OpenVLA, Octo 2, lerobot-based, pi0 variants) will main",
+      "confidence_before": 0.67,
+      "days_scanned": 3,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.67,
+      "delta": 0.0
+    },
+    {
+      "id": "V-009",
+      "domain": "vla",
+      "hypothesis_short": "Cross-embodiment zero-shot transfer of VLA policies remains hard: a model traine",
+      "confidence_before": 0.76,
+      "days_scanned": 3,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.76,
+      "delta": 0.0
+    },
+    {
+      "id": "V-010",
+      "domain": "vla",
+      "hypothesis_short": "3D spatial understanding (depth, point clouds, NeRF/Gaussian Splat representatio",
+      "confidence_before": 0.61,
+      "days_scanned": 3,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.61,
+      "delta": 0.0
+    },
+    {
+      "id": "A-001",
+      "domain": "ai_agent",
+      "hypothesis_short": "MCP and interoperable tool protocols become de facto standard for AI agent tool ",
+      "confidence_before": 0.75,
+      "days_scanned": 5,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.76,
+      "delta": 0.01
+    },
+    {
+      "id": "A-002",
+      "domain": "ai_agent",
+      "hypothesis_short": "Agentic coding (AI autonomously writes, tests, and ships code) will reach 80% su",
+      "confidence_before": 0.65,
+      "days_scanned": 5,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.66,
+      "delta": 0.01
+    },
+    {
+      "id": "A-003",
+      "domain": "ai_agent",
+      "hypothesis_short": "Multi-agent collaboration frameworks will mature from lab tools to engineering p",
+      "confidence_before": 0.6,
+      "days_scanned": 5,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.61,
+      "delta": 0.01
+    },
+    {
+      "id": "A-004",
+      "domain": "ai_agent",
+      "hypothesis_short": "Reasoning models (extended thinking, chain-of-thought) will show persistent adva",
+      "confidence_before": 0.8,
+      "days_scanned": 5,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.81,
+      "delta": 0.01
+    },
+    {
+      "id": "A-005",
+      "domain": "ai_agent",
+      "hypothesis_short": "AI workflow automation becomes the fastest-growing enterprise AI deployment scen",
+      "confidence_before": 0.7,
+      "days_scanned": 5,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.71,
+      "delta": 0.01
+    },
+    {
+      "id": "S-001",
+      "domain": "system",
+      "hypothesis_short": "Open-weight models (Qwen, LLaMA, Gemma) will match 80% of closed-source model ca",
+      "confidence_before": 0.7,
+      "days_scanned": 5,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.71,
+      "delta": 0.01
+    },
+    {
+      "id": "S-002",
+      "domain": "system",
+      "hypothesis_short": "This automation pipeline maintains stable daily output; Watchdog re-run mechanis",
+      "confidence_before": 0.8,
+      "days_scanned": 5,
+      "days_triggered": 0,
+      "triggers": [],
+      "confidence_after": 0.81,
+      "delta": 0.01
+    }
+  ]
+}
